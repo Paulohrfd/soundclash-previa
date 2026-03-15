@@ -12,6 +12,72 @@ const tracks = [
     mode: "brazil"
   },
   {
+    title: "Shake It Bololô",
+    artist: "AOM",
+    embed: "https://open.spotify.com/embed/track/07SbZjKytPqD7X4TtUjIeZ",
+    mode: "brazil"
+  },
+  {
+    title: "Cacos De Vidro (sample: Esperar pra Ver) (part. Evinha)",
+    artist: "BK e Kolo",
+    embed: "https://open.spotify.com/embed/track/7hgKeJgEQyjl6JcpudzvzU",
+    mode: "brazil"
+  },
+  {
+    title: "A Dança",
+    artist: "Gilberto Gil e MC Hariel",
+    embed: "https://open.spotify.com/embed/track/3i1JavmShRKVqPKBUja1PG",
+    mode: "brazil"
+  },
+  {
+    title: "Dubai",
+    artist: "Hungria",
+    embed: "https://open.spotify.com/embed/track/16Ij1j3ZawPQ2vxsnusKLY",
+    mode: "brazil"
+  },
+  {
+    title: "Estilo Cachorro",
+    artist: "Racionais Mc's",
+    embed: "https://open.spotify.com/embed/track/2tR8iLdCeYhVcyPZvN6T7X",
+    mode: "brazil"
+  },
+  {
+    title: "That's My Way (part. Seu Jorge e Leon Mobley)",
+    artist: "Edi Rock e Bagua Records",
+    embed: "https://open.spotify.com/embed/track/4M7bbRsVNB8iWQaX8Sbfln",
+    mode: "brazil"
+  },
+  {
+    title: "Desabafo / Deixa Eu Dizer",
+    artist: "Marcelo D2 e Claudia",
+    embed: "https://open.spotify.com/embed/track/5GCz9BOkt17aI6ZOR3EiUl",
+    mode: "brazil"
+  },
+  {
+    title: "Zorro do Asfalto",
+    artist: "Hungria",
+    embed: "https://open.spotify.com/embed/track/4Wg06OxzVbuDp9aFzS5nm4",
+    mode: "brazil"
+  },
+  {
+    title: "Oitavo Anjo (part. Jorge Benjor)",
+    artist: "509-E",
+    embed: "https://open.spotify.com/embed/track/18jeA7LiqGZK9ENA0KWVr1",
+    mode: "brazil"
+  },
+  {
+    title: "Vida Loka, Pt. 1",
+    artist: "Racionais Mc's",
+    embed: "https://open.spotify.com/embed/track/6m8AgjfI28ER6odzMxmHtR",
+    mode: "brazil"
+  },
+  {
+    title: "Negro Drama",
+    artist: "Racionais Mc's",
+    embed: "https://open.spotify.com/embed/track/3ytXzEJFeVydFfmUhHvti8",
+    mode: "brazil"
+  },
+  {
     title: "Muleque De Vila",
     artist: "Projota",
     embed: "https://open.spotify.com/embed/track/4d2sSjYgtVjaUPxyM1tetN",
@@ -1666,16 +1732,7 @@ async function chooseTrack(winner) {
 }
 
 function chooseTrackByIndex(index) {
-  const cards = document.querySelectorAll(".card");
-  const clickedCard = index === currentIndex ? cards[0] : cards[1];
-
-  if (clickedCard) {
-    clickedCard.classList.add("choice-winner");
-  }
-
-  setTimeout(() => {
-    chooseTrack(currentRound[index]);
-  }, 350);
+  chooseTrack(currentRound[index]);
 }
 
 async function generateChampionImage() {
