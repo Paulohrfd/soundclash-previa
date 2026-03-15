@@ -2308,12 +2308,12 @@ function renderBattleScreen() {
 
         <div class="player">
           <iframe
-            src="${left.embed}"
-            width="100%"
-            height="180"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy">
-          </iframe>
+  loading="lazy"
+  src="${left.embed}"
+  width="100%"
+  height="180"
+  allow="autoplay; clipboard-write;">
+</iframe>
           <p class="spotify-note">
             Ouça a música completa entrando no Spotify.
           </p>
