@@ -1666,7 +1666,16 @@ async function chooseTrack(winner) {
 }
 
 function chooseTrackByIndex(index) {
-  chooseTrack(currentRound[index]);
+  const cards = document.querySelectorAll(".card");
+  const clickedCard = index === currentIndex ? cards[0] : cards[1];
+
+  if (clickedCard) {
+    clickedCard.classList.add("choice-winner");
+  }
+
+  setTimeout(() => {
+    chooseTrack(currentRound[index]);
+  }, 350);
 }
 
 async function generateChampionImage() {
