@@ -540,18 +540,18 @@ iframe {
   .app {
     padding: 20px 12px 28px;
   }
-  .desktop-vs {
-  display: none;
-}
-
-.vs-mobile {
-  display: block;
-}
 
   .start-screen,
   .winner-screen {
     gap: 20px;
   }
+  .desktop-vs{
+  display:none;
+}
+
+.vs-mobile{
+  display:block;
+}
 
   .site-title {
     font-size: 36px;
@@ -908,4 +908,17 @@ iframe {
     0 14px 34px rgba(123,77,255,.28);
   border-color: rgba(160,108,255,.55);
   transition: all 0.25s ease;
+}
+.desktop-vs{
+  display:block;
+}
+
+.vs-mobile{
+  display:none;
+  text-align:center;
+  font-size:28px;
+  font-weight:800;
+  letter-spacing:2px;
+  opacity:.9;
+  margin:10px 0;
 }
