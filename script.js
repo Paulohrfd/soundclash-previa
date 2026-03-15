@@ -12,6 +12,114 @@ const tracks = [
     mode: "brazil"
   },
   {
+    title: "Retrato de um Playboy (Part II)",
+    artist: "Gabriel O Pensador",
+    embed: "https://open.spotify.com/embed/track/3u4wX6aBX6GwGNPUnKlnQa",
+    mode: "brazil"
+  },
+  {
+    title: "Cachimbo da Paz (part. Lulu Santos)",
+    artist: "Gabriel O Pensador",
+    embed: "https://open.spotify.com/embed/track/7E1duSMvHGUcYRgwrMZOUf",
+    mode: "brazil"
+  },
+  {
+    title: "Mega Funk Retro Apague a Luz",
+    artist: "DJ Lukinha Mix",
+    embed: "https://open.spotify.com/embed/track/3eIIfHsuZGBfFxXWN8qPTj",
+    mode: "brazil"
+  },
+  {
+    title: "Mimosa 2000",
+    artist: "Furacão 2000 e Nyasia",
+    embed: "https://open.spotify.com/embed/track/79bWkyd08EFDO0ZZuu7IRT",
+    mode: "brazil"
+  },
+  {
+    title: "MTG NA IMAGINAÇÃO",
+    artist: "DJ Topo e Mc Livinho",
+    embed: "https://open.spotify.com/embed/track/4jUZymsR3lkia9wkP0o9cX",
+    mode: "brazil"
+  },
+  {
+    title: "Catuquei",
+    artist: "Legião Urbano",
+    embed: "https://open.spotify.com/embed/track/7hkQhMFq4EOTYwX3I7cgmA",
+    mode: "brazil"
+  },
+  {
+    title: "Automotivo Fenomenal",
+    artist: "Mc Gw, Mc Vuk Vuk e Dj Novato",
+    embed: "https://open.spotify.com/embed/track/6xCFDuTRxGdpNtZ2K14ig3",
+    mode: "brazil"
+  },
+  {
+    title: "Senta em Mim Xerecão",
+    artist: "Mc Magrinho",
+    embed: "https://open.spotify.com/embed/track/0Y2CUllnYmwSPTKipZ5ddn",
+    mode: "brazil"
+  },
+  {
+    title: "A Bomba",
+    artist: "Braga Boys",
+    embed: "https://open.spotify.com/embed/track/1syj5noYd0GUqHflMH6zda",
+    mode: "brazil"
+  },
+  {
+    title: "Balacubaco",
+    artist: "Parangolé",
+    embed: "https://open.spotify.com/embed/track/3bq2X23gJxuckrM9WD0lQS",
+    mode: "brazil"
+  },
+  {
+    title: "Liga Da Justiça (Mulher Maravilha)",
+    artist: "Levanóiz",
+    embed: "https://open.spotify.com/embed/track/5WliTzLN1oOqURqcj0P7QZ",
+    mode: "brazil"
+  },
+  {
+    title: "Cabaré",
+    artist: "Dj Guuga e Mc Pierre",
+    embed: "https://open.spotify.com/embed/track/35MslOR9Mkkj17dlqL38bg",
+    mode: "brazil"
+  },
+  {
+    title: "Medley Muído de Vaquejada",
+    artist: "felipe amorim, Xand Avião, Zé Vaqueiro e Talita Mel",
+    embed: "https://open.spotify.com/embed/track/7pzD7EudQxP4EhT5UeQjc7",
+    mode: "brazil"
+  },
+  {
+    title: "Fraquinha",
+    artist: "O Kannalha",
+    embed: "https://open.spotify.com/embed/track/7fQvNeYw99wpPTi0Yzs3o7",
+    mode: "brazil"
+  },
+  {
+    title: "Garupa 2",
+    artist: "Mcs Nando and Luanzinho",
+    embed: "https://open.spotify.com/embed/track/4f0YpKAxEnlmfGSmrKVdHn",
+    mode: "brazil"
+  },
+  {
+    title: "Rap Do Silva",
+    artist: "Bob Rum e DJ Marlboro",
+    embed: "https://open.spotify.com/embed/track/0fXOs5kxjG7QHtow1BeY6H",
+    mode: "brazil"
+  },
+  {
+    title: "São Paulo",
+    artist: "Mc Daleste",
+    embed: "https://open.spotify.com/embed/track/6ecZbOFr2YoSHBWIqVRNoo",
+    mode: "brazil"
+  },
+  {
+    title: "Nunca vendeu maconha",
+    artist: "Mc Daleste",
+    embed: "https://open.spotify.com/embed/track/5f4f4VapEEM9vr3mbXxj2F",
+    mode: "brazil"
+  },
+  {
     title: "Ai Se Eu Te Pego",
     artist: "Michel Teló",
     embed: "https://open.spotify.com/embed/track/0INaMqjJJe1BZpnWuCxDzt",
