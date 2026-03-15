@@ -911,6 +911,10 @@ iframe {
 }
 @media (max-width:600px){
 
+.app{
+  transform: scale(0.94);
+  transform-origin: top center;
+}
   body{
     font-size:13px;
   }
