@@ -540,6 +540,13 @@ iframe {
   .app {
     padding: 20px 12px 28px;
   }
+  .desktop-vs {
+  display: none;
+}
+
+.vs-mobile {
+  display: block;
+}
 
   .start-screen,
   .winner-screen {
@@ -601,6 +608,19 @@ iframe {
     color: rgba(255,255,255,.5);
     margin: 10px 0 18px;
   }
+  .desktop-vs {
+  display: block;
+}
+
+.vs-mobile {
+  display: none;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  opacity: .88;
+  margin: 6px 0 14px;
+}
 
   .vs::before,
   .vs::after {
