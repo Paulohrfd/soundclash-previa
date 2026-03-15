@@ -2238,27 +2238,42 @@ function renderWinnerScreen() {
       <h2 class="winner-song">${champion.title}</h2>
       <p class="winner-artist">${champion.artist}</p>
 
-      <div class="share-card">
-        <p class="share-kicker">MINHA COPA NO SOUNDCLASH</p> 
+      <div class="share-card clean-share-card">
+        <p class="share-kicker">MINHA COPA NO SOUNDCLASH</p>
 
-          <div class="bracket-col semi-col">
-            <h4>Semifinal</h4>
-            ${renderBracketPairs(finalsHistory.semi, finalsHistory.semiWinners)}
+        <div class="clean-bracket-section">
+          <h4>Semifinais</h4>
+
+          <div class="clean-match">
+            <div class="clean-team">${finalsHistory.semi?.[0]?.title || ""}</div>
+            <div class="clean-vs">VS</div>
+            <div class="clean-team">${finalsHistory.semi?.[1]?.title || ""}</div>
           </div>
 
-          <div class="bracket-col final-col">
-            <h4>Final</h4>
-            ${renderBracketPairs(finalsHistory.final, finalsHistory.finalWinner ? [finalsHistory.finalWinner] : [])}
-          </div>
-
-          <div class="bracket-col champion-col">
-            <h4>🏆 Campeão</h4>
-            <div class="champion-name">${champion.title}</div>
-            <div class="champion-artist">${champion.artist}</div>
+          <div class="clean-match">
+            <div class="clean-team">${finalsHistory.semi?.[2]?.title || ""}</div>
+            <div class="clean-vs">VS</div>
+            <div class="clean-team">${finalsHistory.semi?.[3]?.title || ""}</div>
           </div>
         </div>
 
-        <p class="share-footer">soundclash</p>
+        <div class="clean-bracket-section">
+          <h4>Final</h4>
+
+          <div class="clean-match final-match">
+            <div class="clean-team">${finalsHistory.final?.[0]?.title || ""}</div>
+            <div class="clean-vs">VS</div>
+            <div class="clean-team">${finalsHistory.final?.[1]?.title || ""}</div>
+          </div>
+        </div>
+
+        <div class="clean-champion-block">
+          <h4>🏆 Campeão</h4>
+          <div class="clean-champion-name">${champion.title}</div>
+          <div class="clean-champion-artist">${champion.artist}</div>
+        </div>
+
+        <p class="share-footer">soundclashbr.vercel.app</p>
       </div>
 
       <div class="winner-actions">
