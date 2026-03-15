@@ -2239,13 +2239,7 @@ function renderWinnerScreen() {
       <p class="winner-artist">${champion.artist}</p>
 
       <div class="share-card">
-        <p class="share-kicker">MINHA COPA NO SOUNDCLASH</p>
-
-        <div class="bracket-board">
-          <div class="bracket-col quarter-col">
-            <h4>Quartas</h4>
-            ${renderBracketPairs(finalsHistory.quarter, finalsHistory.quarterWinners)}
-          </div>
+        <p class="share-kicker">MINHA COPA NO SOUNDCLASH</p> 
 
           <div class="bracket-col semi-col">
             <h4>Semifinal</h4>
@@ -2450,10 +2444,6 @@ async function chooseTrack(winner) {
     return;
   }
 
-  if (currentRound.length === 8) {
-    finalsHistory.quarter = [...currentRound];
-    finalsHistory.quarterWinners = [...nextRound];
-  }
 
   if (currentRound.length === 4) {
     finalsHistory.semi = [...currentRound];
