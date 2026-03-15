@@ -1895,64 +1895,32 @@ function renderWinnerScreen() {
 }
 
 function renderBattleScreen() {
-  const left = currentRound[currentIndex];
-  const right = currentRound[currentIndex + 1];
-  const duel = Math.floor(currentIndex / 2) + 1;
+  const a = currentPair[0];
+  const b = currentPair[1];
+
+  const phaseName = getPhaseName();
+  const duelNumber = currentIndex + 1;
   const totalDuels = currentRound.length / 2;
-  const phase = roundNames[currentRound.length] || `${currentRound.length / 2} confrontos`;
 
-  return `
-    <div class="topbar">
-      <div class="badge">Fase: <strong>${phase}</strong></div>
-      <div class="badge">Duelo: <strong>${duel}</strong> de <strong>${totalDuels}</strong></div>
-      ${undoAvailable && lastState ? '<button class="main-btn secondary-btn" onclick="undoMove()">VOLTAR</button>' : ''}
-      <button class="main-btn" onclick="startGame()">REINICIAR</button>
-    </div>
+  document.getElementById("game").innerHTML = `
+  
+  <div class="top-info">
+    <div class="phase">Fase: ${phaseName}</div>
+    <div class="duel">Duelo: ${duelNumber} de ${totalDuels}</div>
+  </div>
 
-    <div class="battle-grid">
-      <div class="card">
-        <h2>${left.title}</h2>
-        <p>${left.artist}</p>
+  <button class="restart-btn" onclick="restartTournament()">REINICIAR</button>
 
-        <div class="player">
-          <iframe
-            src="${left.embed}"
-            width="100%"
-            height="120"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy">
-          </iframe>
-          <p class="spotify-note">
-  Ouça a música completa entrando no Spotify. 
-</p>
-        </div>
+  <div class="battle">
 
-        <button class="choice-btn" onclick="chooseTrackByIndex(${currentIndex})">ESCOLHER</button>
-      </div>
+    ${createTrackCard(a,0)}
 
-      <div class="vs desktop-vs">VS</div>
-<div class="vs-mobile">VS</div>
+    <div class="vs desktop-vs">VS</div>
+    <div class="vs-mobile">VS</div>
 
-      <div class="card">
-        <h2>${right.title}</h2>
-        <p>${right.artist}</p>
+    ${createTrackCard(b,1)}
 
-        <div class="player">
-          <iframe
-            src="${right.embed}"
-            width="100%"
-            height="120"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy">
-          </iframe>
-          <p class="spotify-note">
-  Ouça a música completa entrando no Spotify. 
-</p>
-        </div>
-
-        <button class="choice-btn" onclick="chooseTrackByIndex(${currentIndex + 1})">ESCOLHER</button>
-      </div>
-    </div>
+  </div>
   `;
 }
 function renderLoadingScreen() {
