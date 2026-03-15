@@ -6,27 +6,165 @@ const tracks = [
     mode: "brazil"
   },
   {
+    title: "Será",
+    artist: "Legião Urbano",
+    embed: "https://open.spotify.com/embed/track/7hkQhMFq4EOTYwX3I7cgmA",
+    mode: "brazil"
+  },
+  {
+    title: "Muleque De Vila",
+    artist: "Projota",
+    embed: "https://open.spotify.com/embed/track/4d2sSjYgtVjaUPxyM1tetN",
+    mode: "brazil"
+  },
+  {
+    title: "Impressionando Os Anjos - ao vivo",
+    artist: "Gustavo Mioto",
+    embed: "https://open.spotify.com/embed/track/3v4l0SvxjTk9IjiVLhXiKA",
+    mode: "brazil"
+  },
+  {
+    title: "Vai Vendo",
+    artist: "Lucas Lucco",
+    embed: "https://open.spotify.com/embed/track/2jlVhPAhZuErUsbYLOqOxj",
+    mode: "brazil"
+  },
+  {
+    title: "Tremendo Vacilao",
+    artist: "Perlla",
+    embed: "https://open.spotify.com/embed/track/480o64VmNvWcwzCg74VUxW",
+    mode: "brazil"
+  },
+  {
+    title: "ESCADA DO PRÉDIO",
+    artist: "PEDRO SAMPAIO e Marina Sena",
+    embed: "https://open.spotify.com/embed/track/560vXBs6hssdrdOw13QPl9",
+    mode: "brazil"
+  },
+  {
+    title: "Ela so pensa em beijar",
+    artist: "Mc leozinho",
+    embed: "https://open.spotify.com/embed/track/0WSO3rLrwKWLTR5TtZRN0X",
+    mode: "brazil"
+  },
+  {
+    title: "Mds",
+    artist: "Kawe & Mc Lele JP",
+    embed: "https://open.spotify.com/embed/track/0QglpM23kl9ldvVdoYNZwF",
+    mode: "brazil"
+  },
+  {
+    title: "Anos Luz",
+    artist: "Matuê",
+    embed: "https://open.spotify.com/embed/track/4hVTpP7CV9imY9U53p45sX",
+    mode: "brazil"
+  },
+  {
+    title: "Tá OK",
+    artist: "MC Kevin o Chris e DENNIS",
+    embed: "https://open.spotify.com/embed/track/0fABszUFNbNq9IW503Gj8v",
+    mode: "brazil"
+  },
+  {
+    title: "Oh Meu Deus",
+    artist: "Projota",
+    embed: "https://open.spotify.com/embed/track/6ZaQRwBNp3xWu5lpib6xO6",
+    mode: "brazil"
+  },
+  {
+    title: "Papo de Agustinho",
+    artist: "Oruam e Mainstreet",
+    embed: "https://open.spotify.com/embed/track/5cCwZJUf8QiCQGnyakhpmF",
+    mode: "brazil"
+  },
+  {
+    title: "Te Assumi Pro Brasil - Ao Vivo",
+    artist: "Matheus & Kauan",
+    embed: "https://open.spotify.com/embed/track/6P7Uodyh8g40Nyc3no6R8E",
+    mode: "brazil"
+  },
+  {
+    title: "Quarta Cadeira (Acústico)",
+    artist: "Matheus & Kauan",
+    embed: "https://open.spotify.com/embed/track/3xW3gvAnYH2JsLnubQ4GyT",
+    mode: "brazil"
+  },
+  {
+    title: "SEQUÊNCIA FEITICEIRA",
+    artist: "PEDRO SAMPAIO, Mc Gw, Mc Jhey, Mc Rodrigo do CN e MC Nito",
+    embed: "https://open.spotify.com/embed/track/4Lwm0XFseZ09OBdmUJlcYp",
+    mode: "brazil"
+  },
+  {
+    title: "Nocaute",
+    artist: "Jorge & Mateus",
+    embed: "https://open.spotify.com/embed/track/2NnSYdNhqye00il4nRB4tj",
+    mode: "brazil"
+  },
+  {
+    title: "Última Noite",
+    artist: "Léo Foguete",
+    embed: "https://open.spotify.com/embed/track/2Doe6AaIpyDy4JvFTsxSDn",
+    mode: "brazil"
+  },
+  {
+    title: "Eu Tenho Medo",
+    artist: "Zé Vaqueiro",
+    embed: "https://open.spotify.com/embed/track/7yjduLSgPntFlq79Cuzrfz",
+    mode: "brazil"
+  },
+  {
+    title: "Eu, Você, O Mar e Ela",
+    artist: "Luan Santana",
+    embed: "https://open.spotify.com/embed/track/693kJcwQwFTb8809nbvQxG",
+    mode: "brazil"
+  },
+  {
+    title: "Amiga da Minha Mulher",
+    artist: "Seu Jorge",
+    embed: "https://open.spotify.com/embed/track/5nh2T9qvyXZCvVVYYESeRW",
+    mode: "brazil"
+  },
+  {
+    title: "Quero Te Encontrar",
+    artist: "Claudinho & Buchecha",
+    embed: "https://open.spotify.com/embed/track/3AYcFdYKSL8mVqJWwCpS60",
+    mode: "brazil"
+  },
+  {
+    title: "Tropa De Elite",
+    artist: "Tihuana",
+    embed: "https://open.spotify.com/embed/track/0KuDeGUXh5QQ7gSiB6KGPh",
+    mode: "brazil"
+  },
+  {
+    title: "Malandragem",
+    artist: "Cássia Eller",
+    embed: "https://open.spotify.com/embed/track/2Ktn7Hg3jocizpfzYJKLty",
+    mode: "brazil"
+  },
+  {
     title: "Metamorfose Ambulante",
     artist: "Raul Seixas",
-    embed: "https://open.spotify.com/embed/track/2Yk0HvfTaijA47aM0Fj88u?si=q2CumYlgSbmTXIjmJ0VdKQ",
+    embed: "https://open.spotify.com/embed/track/2Yk0HvfTaijA47aM0Fj88u",
     mode: "brazil"
   },
 {
     title: "Tempo Perdido",
     artist: "Legião Urbano",
-    embed: "https://open.spotify.com/embed/track/7MnT7msJZg3XBAS0OTfGrB?si=gpALcNHpSEC8moX-rB4D-w",
+    embed: "https://open.spotify.com/embed/track/7MnT7msJZg3XBAS0OTfGrB",
+    mode: "brazil"
+  },
+{
+    title: "Anjos (Pra quem tem fé)",
+    artist: "O Rappa",
+    embed: "https://open.spotify.com/embed/track/1UvWx2hgpxlF7HPbwLSmIY",
     mode: "brazil"
   },
 {
     title: "Não quero dinheiro",
     artist: "Tim Maia",
-    embed: "https://open.spotify.com/embed/track/0SfcG65T1KKCj5NQffpzQR?si=HX4jMW78QS28NLJV_MOgGg",
-    mode: "brazil"
-  },
-{
-    title: "Não quero dinheiro",
-    artist: "Tim Maia",
-    embed: "https://open.spotify.com/embed/track/0SfcG65T1KKCj5NQffpzQR?si=HX4jMW78QS28NLJV_MOgGg",
+    embed: "https://open.spotify.com/embed/track/0SfcG65T1KKCj5NQffpzQR",
     mode: "brazil"
   },
   {
@@ -38,13 +176,13 @@ const tracks = [
   {
     title: "Anna Júlia",
     artist: "Los Hermanos",
-    embed: "https://open.spotify.com/embed/track/0aASUtDb1N96NJDwmWj5Gf?si=i4o1_f6QTb60VdLwtJOYOg",
+    embed: "https://open.spotify.com/embed/track/0aASUtDb1N96NJDwmWj5Gf",
     mode: "brazil"
   },
   {
     title: "Só Os Loucos Sabem",
     artist: "Charlie Brown Jr.",
-    embed: "https://open.spotify.com/embed/track/3nI0piSOxAik2RCpHGloB7?si=8HL0KKwHS46KuLMqIjdaVg",
+    embed: "https://open.spotify.com/embed/track/3nI0piSOxAik2RCpHGloB7?",
     mode: "brazil"
   },
   {
@@ -1235,9 +1373,9 @@ function renderStartScreen() {
       </p>
 
       <div class="mode-buttons">
-        <button class="main-btn hero-btn" onclick="window.location.href='/general'">GERAL 🎶</button>
-        <button class="main-btn hero-btn" onclick="window.location.href='/international'">INTERNACIONAL 🌎</button>
-        <button class="main-btn hero-btn" onclick="window.location.href='/brazil'">BRASIL 🔥</button>
+        <button class="main-btn hero-btn" onclick="window.location.href='/general'">MÚSICAS GERAIS 🎶</button>
+        <button class="main-btn hero-btn" onclick="window.location.href='/international'">MÚSICAS INTERNACIONAIS 🌎</button>
+        <button class="main-btn hero-btn" onclick="window.location.href='/brazil'">MÚSICAS BRASILEIRAS 🔥</button>
       </div>
 
       <div class="home-ranking-wrap">
@@ -1625,4 +1763,3 @@ function handleRoute() {
 }
 
 handleRoute();
-
