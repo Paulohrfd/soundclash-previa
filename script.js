@@ -1930,7 +1930,8 @@ function renderBattleScreen() {
         <button class="choice-btn" onclick="chooseTrackByIndex(${currentIndex})">ESCOLHER</button>
       </div>
 
-      <div class="vs">VS</div>
+      <div class="vs desktop-vs">VS</div>
+<div class="vs-mobile">VS</div>
 
       <div class="card">
         <h2>${right.title}</h2>
