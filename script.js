@@ -2307,13 +2307,11 @@ function renderBattleScreen() {
         <p>${left.artist}</p>
 
         <div class="player">
-          <iframe
-  loading="lazy"
-  src="${left.embed}"
-  width="100%"
-  height="180"
-  allow="autoplay; clipboard-write;">
-</iframe>
+          <div class="player">
+  <button class="load-player" onclick="loadSpotify(this, '${left.embed}')">
+    ▶ Ouvir prévia
+  </button>
+</div>
           <p class="spotify-note">
             Ouça a música completa entrando no Spotify.
           </p>
@@ -2593,5 +2591,17 @@ function handleRoute() {
   render();
 }
 
+
 handleRoute();
 
+function loadSpotify(btn, embed) {
+  btn.parentElement.innerHTML = `
+    <iframe
+      loading="lazy"
+      src="${embed}"
+      width="100%"
+      height="152"
+      allow="autoplay; clipboard-write;">
+    </iframe>
+  `;
+}
