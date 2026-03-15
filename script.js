@@ -1,4 +1,184 @@
-const tracks = [  
+const tracks = [
+  {
+  title: "Bump, Bump, Bump",
+  artist: "B2K",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Don't Matter",
+  artist: "Akon",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "My Humps",
+  artist: "The Black Eyed Peas",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Kiss Me Thru The Phone",
+  artist: "Soulja Boy Tell'em e Sammie",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Say It Right",
+  artist: "Nelly Furtado",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "My Boo",
+  artist: "Ghost Town DJs",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Smack That",
+  artist: "Akon",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Hit Em Up",
+  artist: "2Pac",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "P.I.M.P.",
+  artist: "50 Cent",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Low",
+  artist: "Flo Rida",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Not Like Us",
+  artist: "Kendrick Lamar",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "tv off",
+  artist: "Kendrick Lamar",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Bank Account",
+  artist: "21 Savage",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Work",
+  artist: "Rihanna e Drake",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "In My Feelings",
+  artist: "Drake",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Better Now",
+  artist: "Post Malone",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "FE!N",
+  artist: "Travis Scott",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "20 Min",
+  artist: "Lil Uzi Vert",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "This Is America",
+  artist: "Childish Gambino",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Thrift Shop",
+  artist: "Macklemore & Ryan Lewis",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Chill Bill",
+  artist: "Rob $tone, J. Davi$ e Spooks",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "See You Again",
+  artist: "Tyler, The Creator e Kali Uchis",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Murder on My Mind",
+  artist: "YNW Melly",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "The Box",
+  artist: "Roddy Ricch",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "24K Magic",
+  artist: "Bruno Mars",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "SICKO MODE",
+  artist: "Travis Scott",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Ransom",
+  artist: "Lil Tecca",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Feel So Close",
+  artist: "Calvin Harris",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "I Gotta Feeling",
+  artist: "The Black Eyed Peas",
+  embed: "",
+  mode: "international"
+},
+{
+  title: "Club Can't Handle Me",
+  artist: "Flo Rida e David Guetta",
+  embed: "",
+  mode: "international"
+},
   {
     title: "SET DO JAPA NK 2.0",
     artist: "DJ Japa NK, MC Ryan SP, MC Meno K, Mc IG, MC LUUKY, Mc Jacaré, MC Rodrigo do CN, MC GH do 7, Mc Lele JP, MC Jvila e Oruam",
