@@ -2240,6 +2240,7 @@ function renderWinnerScreen() {
 
       <div class="share-card clean-share-card">
         <p class="share-kicker">MINHA COPA NO SOUNDCLASH</p>
+      <div>
 
         <div class="clean-bracket-section">
           <h4>Semifinais</h4>
