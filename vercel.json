@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/brazil", "destination": "/" },
+    { "source": "/international", "destination": "/" },
+    { "source": "/general", "destination": "/" }
+  ]
+}
