@@ -2240,31 +2240,44 @@ function renderWinnerScreen() {
 
       <div class="share-card clean-share-card">
         <p class="share-kicker">MINHA COPA NO SOUNDCLASH</p>
-      <div>
 
         <div class="clean-bracket-section">
           <h4>Semifinais</h4>
 
           <div class="clean-match">
-<div class="clean-team ${finalsHistory.semiWinners.includes(finalsHistory.semi[0]) ? 'winner' : 'loser'}">${finalsHistory.semi[0].title}</div>
-<div class="clean-vs">VS</div>
-<div class="clean-team ${finalsHistory.semiWinners.includes(finalsHistory.semi[1]) ? 'winner' : 'loser'}">${finalsHistory.semi[1].title}</div>
-</div>
+            <div class="clean-team ${finalsHistory.semiWinners.includes(finalsHistory.semi[0]) ? 'winner' : 'loser'}">
+              ${finalsHistory.semi[0].title}
+            </div>
+            <div class="clean-vs">VS</div>
+            <div class="clean-team ${finalsHistory.semiWinners.includes(finalsHistory.semi[1]) ? 'winner' : 'loser'}">
+              ${finalsHistory.semi[1].title}
+            </div>
+          </div>
 
           <div class="clean-match">
-<div class="clean-team ${finalsHistory.semiWinners.includes(finalsHistory.semi[2]) ? 'winner' : 'loser'}">${finalsHistory.semi[2].title}</div>
-<div class="clean-vs">VS</div>
-<div class="clean-team ${finalsHistory.semiWinners.includes(finalsHistory.semi[3]) ? 'winner' : 'loser'}">${finalsHistory.semi[3].title}</div>
-</div>
+            <div class="clean-team ${finalsHistory.semiWinners.includes(finalsHistory.semi[2]) ? 'winner' : 'loser'}">
+              ${finalsHistory.semi[2].title}
+            </div>
+            <div class="clean-vs">VS</div>
+            <div class="clean-team ${finalsHistory.semiWinners.includes(finalsHistory.semi[3]) ? 'winner' : 'loser'}">
+              ${finalsHistory.semi[3].title}
+            </div>
+          </div>
+        </div>
 
         <div class="clean-bracket-section">
           <h4>Final</h4>
 
           <div class="clean-match final-match">
-<div class="clean-team ${champion === finalsHistory.final[0] ? 'winner' : 'loser'}">${finalsHistory.final[0].title}</div>
-<div class="clean-vs">VS</div>
-<div class="clean-team ${champion === finalsHistory.final[1] ? 'winner' : 'loser'}">${finalsHistory.final[1].title}</div>
-</div>
+            <div class="clean-team ${champion.title === finalsHistory.final[0].title && champion.artist === finalsHistory.final[0].artist ? 'winner' : 'loser'}">
+              ${finalsHistory.final[0].title}
+            </div>
+            <div class="clean-vs">VS</div>
+            <div class="clean-team ${champion.title === finalsHistory.final[1].title && champion.artist === finalsHistory.final[1].artist ? 'winner' : 'loser'}">
+              ${finalsHistory.final[1].title}
+            </div>
+          </div>
+        </div>
 
         <div class="clean-champion-block">
           <h4>🏆 Campeão</h4>
