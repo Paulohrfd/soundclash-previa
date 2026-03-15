@@ -880,3 +880,12 @@ iframe {
   margin-top: 6px;
   text-align: center;
 }
+.choice-winner {
+  transform: scale(1.03);
+  box-shadow:
+    0 0 0 1px rgba(160,108,255,.18),
+    0 0 26px rgba(123,77,255,.45),
+    0 14px 34px rgba(123,77,255,.28);
+  border-color: rgba(160,108,255,.55);
+  transition: all 0.25s ease;
+}
