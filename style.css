@@ -909,6 +909,15 @@ iframe {
   margin-top: 6px;
   text-align: center;
 }
+.site-logo {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.site-logo img {
+  width: 80px;
+  opacity: 0.9;
+}
 .choice-winner {
   transform: scale(1.03);
   box-shadow:
