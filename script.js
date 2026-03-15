@@ -2318,10 +2318,7 @@ function renderBattleScreen() {
     Ouça a música completa entrando no Spotify.
   </p>
 </div>
-          <p class="spotify-note">
-            Ouça a música completa entrando no Spotify.
-          </p>
-        </div>
+        
 
         <button class="choice-btn" onclick="chooseTrackByIndex(${currentIndex})">ESCOLHER</button>
       </div>
