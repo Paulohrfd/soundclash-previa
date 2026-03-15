@@ -1016,3 +1016,19 @@ iframe {
   margin-top: 28px !important;
   font-size: 18px !important;
 }
+/* vencedor */
+
+.clean-team.winner {
+  background: linear-gradient(45deg, #7b4dff, #a06cff);
+  border: 1px solid rgba(200,170,255,.6);
+  box-shadow:
+    0 10px 30px rgba(123,77,255,.35),
+    0 0 20px rgba(160,108,255,.25);
+}
+
+/* perdedor */
+
+.clean-team.loser {
+  opacity: 0.45;
+  filter: grayscale(0.3);
+}
