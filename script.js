@@ -12,6 +12,270 @@ const tracks = [
     mode: "brazil"
   },
   {
+    title: "Ai Se Eu Te Pego",
+    artist: "Michel Teló",
+    embed: "https://open.spotify.com/embed/track/0INaMqjJJe1BZpnWuCxDzt",
+    mode: "brazil"
+  },
+  {
+    title: "Tua Ex É uma Delícia",
+    artist: "Anderson Neiff",
+    embed: "https://open.spotify.com/embed/track/77ktPgR21JTA59L1R7NQn9",
+    mode: "brazil"
+  },
+  {
+    title: "Me Namora",
+    artist: "Edu Ribeiro",
+    embed: "https://open.spotify.com/embed/track/2u5Jzgg0h3XgXwKSv7W5NK",
+    mode: "brazil"
+  },
+  {
+    title: "Sonhar",
+    artist: "MC Gui",
+    embed: "https://open.spotify.com/embed/track/3dQ0WPEYoeJkL9ChiFRSx6",
+    mode: "brazil"
+  },
+  {
+    title: "Amor e Fé (Acústico)",
+    artist: "Hungria",
+    embed: "https://open.spotify.com/embed/track/5ra6CI0pEzqjxPEZeBz0d7",
+    mode: "brazil"
+  },
+  {
+    title: "V de Vilão",
+    artist: "Matuê",
+    embed: "https://open.spotify.com/embed/track/7pMfMzfYSTbNxj5lJEbQIp",
+    mode: "brazil"
+  },
+  {
+    title: "Abbot - Visão de Futuro",
+    artist: "Valhalla Records",
+    embed: "https://open.spotify.com/embed/track/2RjvQychgHPcxpghmP2p9s",
+    mode: "brazil"
+  },
+  {
+    title: "Matuê - Isso é Sério ",
+    artist: "Brandão85 e Matuê",
+    embed: "https://open.spotify.com/embed/track/3Sa2gVQioE31DcG4nKNDqD",
+    mode: "brazil"
+  },
+  {
+    title: "Mantém o Pique",
+    artist: "Neckklace, Ryu, The Runner e Salve Crazy",
+    embed: "https://open.spotify.com/embed/track/4Fd1cs4q4oA95DmqiPSXhO",
+    mode: "brazil"
+  },
+  {
+    title: "Sei Lá (Papatracks #7)",
+    artist: "Choji e Lil Gabi",
+    embed: "https://open.spotify.com/embed/track/4vi7Pd3Zr7EuEiHQ91hP1f",
+    mode: "brazil"
+  },
+  {
+    title: "Haja Amor",
+    artist: "Luiz Caldas",
+    embed: "https://open.spotify.com/embed/track/07aDFrAVLD02sKGzlZby46",
+    mode: "brazil"
+  },
+  {
+    title: "Festa no Apê (Dragostea Din Tei) (Radio Version)",
+    artist: "Latino",
+    embed: "https://open.spotify.com/embed/track/1pfcCB2wjEZwi9MoexalcM",
+    mode: "brazil"
+  },
+  {
+    title: "Uni, Duni, Tê",
+    artist: "Trem Da Alegria E The Fevers",
+    embed: "https://open.spotify.com/embed/track/5wn2ux0180ZBKhwHaiUoeG",
+    mode: "brazil"
+  },
+  {
+    title: "Tente Outra Vez",
+    artist: "Raul Seixas",
+    embed: "https://open.spotify.com/embed/track/6YXOsfhu4fDWcHV14tcF3x",
+    mode: "brazil"
+  },
+  {
+    title: "1406",
+    artist: "Mamonas Assassinas",
+    embed: "https://open.spotify.com/embed/track/0TXRO7qVCw0UOSkCPxWvUM",
+    mode: "brazil"
+  },
+  {
+    title: "O Descobridor Dos Sete Mares",
+    artist: "Tim Maia",
+    embed: "https://open.spotify.com/embed/track/6wpDQGn3Gl0j9Wt6D6mYvQ",
+    mode: "brazil"
+  },
+  {
+    title: "Superfantastico (Super Fantastico) (part. Djavan)",
+    artist: "A Turma Do Balão Mágico",
+    embed: "https://open.spotify.com/embed/track/6DyZkdhsIpSqamQRHxDnpO",
+    mode: "brazil"
+  },
+  {
+    title: "Exagerado",
+    artist: "Cazuza",
+    embed: "https://open.spotify.com/embed/track/4d0DpU7Odiv0ztvX2GxJlk",
+    mode: "brazil"
+  },
+  {
+    title: "Menina Veneno",
+    artist: "Ritchie",
+    embed: "https://open.spotify.com/embed/track/6qlb3j0zGqEe6uWJpQZGxP",
+    mode: "brazil"
+  },
+  {
+    title: "Whisky a Go-Go",
+    artist: "Roupa Nova",
+    embed: "https://open.spotify.com/embed/track/2BnJUYbPtL3yauZKmay0ko",
+    mode: "brazil"
+  },
+  {
+    title: "He-Man",
+    artist: "Trem Da Alegria",
+    embed: "https://open.spotify.com/embed/track/6RjZL1N5mSKmbfCIVakSSM",
+    mode: "brazil"
+  },
+  {
+    title: "Vira-Vira",
+    artist: "Mamonas Assassinas",
+    embed: "https://open.spotify.com/embed/track/2XGRcNVv7uJozHCRLl7SG8",
+    mode: "brazil"
+  },
+  {
+    title: "Pelados Em Santos",
+    artist: "Mamonas Assassinas",
+    embed: "https://open.spotify.com/embed/track/2iJpjciYl8vfQbb543b5Pb",
+    mode: "brazil"
+  },
+  {
+    title: "Marolento",
+    artist: "Puterrier, Borges, Mainstreet, Heavy Baile, Leo Justi e Pedro Bala",
+    embed: "https://open.spotify.com/embed/track/6qylu0VNKUfKiVi88WL3Ci",
+    mode: "brazil"
+  },
+  {
+    title: "Baile de Favela",
+    artist: "Mc João e DJ R7",
+    embed: "https://open.spotify.com/embed/track/5nwkZfrwFGehnwYA1Z664w",
+    mode: "brazil"
+  },
+  {
+    title: "Putaria 2000",
+    artist: "Puterrier",
+    embed: "https://open.spotify.com/embed/track/5Qjz1w6gyWje58AK2u0IMV",
+    mode: "brazil"
+  },
+  {
+    title: "MONTAGEM ANOS 2000 (part. Mc Tigrão e Mc Barbie)",
+    artist: "DJ Arana, MC Maneirinho e MC Luan",
+    embed: "https://open.spotify.com/embed/track/1O9I2QajEqi6IcmFyWgRfq",
+    mode: "brazil"
+  },
+  {
+    title: "Eu So Comi Ela uma Vez",
+    artist: "Dj VN Maestro e MC G DS",
+    embed: "https://open.spotify.com/embed/track/7eoRm37Ta1jvGMiMRfOQoa",
+    mode: "brazil"
+  },
+  {
+    title: "Luxúria (part. Matuê)",
+    artist: "Xamã, Neo Beats e Bagua Records",
+    embed: "https://open.spotify.com/embed/track/5kuUOpHZlZjL8b7HXkxRsm",
+    mode: "brazil"
+  },
+  {
+    title: "Um Pedido",
+    artist: "Hungria",
+    embed: "https://open.spotify.com/embed/track/3CgZi8DMUftJHK6WL2gKc1",
+    mode: "brazil"
+  },
+  {
+    title: "Hylander (part. Somynem.grin)",
+    artist: "Abbot",
+    embed: "https://open.spotify.com/embed/track/3sOcmmmWB7dqyziUVLXpTi",
+    mode: "brazil"
+  },
+  {
+    title: "ME POSTOU NO DAILY - FESTA DO BIG G",
+    artist: "MC GP, Mc Lele JP, DJ DAVI DOGDOG e DJ Andrabeat",
+    embed: "https://open.spotify.com/embed/track/4ATO632UaFTJltxCbfBpHI",
+    mode: "brazil"
+  },
+  {
+    title: "Eternos Alunos (part. MC HARIEL e MC DON JUAN)",
+    artist: "MC PH",
+    embed: "https://open.spotify.com/embed/track/6CDIbxHbmlFVxe3mFNMlkp",
+    mode: "brazil"
+  },
+  {
+    title: "22 Meu Vulgo (part. Ajaxx, Gigant e Goldgrain)",
+    artist: "Oruam",
+    embed: "https://open.spotify.com/embed/track/2ytGRxYdpQ5o1dUfrA33pA",
+    mode: "brazil"
+  },
+  {
+    title: "Posso Até Não Te Dar Flores (part. DJ DAVI DOGDOG)",
+    artist: "DJ Japa NK, Mc Meno K, Mc Ryan SP e Mc Jacaré",
+    embed: "https://open.spotify.com/embed/track/4tYCyoSpv0Ujpfwcneb02l",
+    mode: "brazil"
+  },
+  {
+    title: "Ilusão (Cracolândia) (part. Mc Davi, MC Ryan SP e Salvador Da Rima)",
+    artist: "MC Hariel, Alok e Djay W",
+    embed: "https://open.spotify.com/embed/track/6WXglvTFRmjlHHhgjYMNif",
+    mode: "brazil"
+  },
+  {
+    title: "Jetski",
+    artist: "Samp MC",
+    embed: "https://open.spotify.com/embed/track/0jPVcDk1PoqRlsb3EylQc6",
+    mode: "brazil"
+  },
+  {
+    title: "Renasci das Cinzas",
+    artist: "Mc Daniel, Mc Paulin da Capital e OGBEATZZ",
+    embed: "https://open.spotify.com/embed/track/2PwjlwWQFbOunQWt1raAW9",
+    mode: "brazil"
+  },
+  {
+    title: "Kallidade",
+    artist: "Kalli e NaBuscaDoOuro",
+    embed: "https://open.spotify.com/embed/track/2pwQMzlHOxY2EmbOfAo0HM",
+    mode: "brazil"
+  },
+  {
+    title: "Fim de Semana no Rio",
+    artist: "Teto",
+    embed: "https://open.spotify.com/embed/track/7afaZ37wJJL6880z1NRgJS",
+    mode: "brazil"
+  },
+  {
+    title: "4Tal",
+    artist: "Matuê e Teto",
+    embed: "https://open.spotify.com/embed/track/6OcZP4rUfuxms2r8Mwx5BQ",
+    mode: "brazil"
+  },
+  {
+    title: "A Última Dança",
+    artist: "Matuê",
+    embed: "https://open.spotify.com/embed/track/6ifISefylcgPQksE0gmcVY",
+    mode: "brazil"
+  },
+  {
+    title: "Flow Espacial",
+    artist: "Teto, WIU e Matuê",
+    embed: "https://open.spotify.com/embed/track/4qDT0BeJ7BjatrN9k8AvB4",
+    mode: "brazil"
+  },
+  {
+    title: "JAPONÊS",
+    artist: "Brandão85 e Matuê",
+    embed: "https://open.spotify.com/embed/track/6JH5wCoto58vgqa61jvazc",
+    mode: "brazil"
+  },
+  {
     title: "Shake It Bololô",
     artist: "AOM",
     embed: "https://open.spotify.com/embed/track/07SbZjKytPqD7X4TtUjIeZ",
