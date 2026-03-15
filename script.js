@@ -2294,9 +2294,19 @@ function renderBattleScreen() {
     </div>
 
     <div class="battle-grid">
-      <div class="card">
-        <h2>${left.title}</h2>
-        <p>${left.artist}</p>
+
+  ${createTrackCard(left,0)}
+
+  <div class="vs desktop-vs">VS</div>
+  <div class="vs-mobile">VS</div>
+
+  ${createTrackCard(right,1)}
+
+</div>
+
+<div class="site-logo">
+  <img src="logo.png" alt="SoundClash Logo">
+</div>
 
         <div class="player">
           <iframe
