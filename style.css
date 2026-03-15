@@ -909,6 +909,34 @@ iframe {
   margin-top: 6px;
   text-align: center;
 }
+@media (max-width:600px){
+
+  body{
+    font-size:14px;
+  }
+
+  .card{
+    padding:16px;
+  }
+
+  .card h2{
+    font-size:20px;
+  }
+
+  .choice-btn{
+    padding:12px;
+    font-size:14px;
+  }
+
+  .battle-grid{
+    gap:16px;
+  }
+
+  iframe{
+    height:90px;
+  }
+
+}
 .site-logo {
   margin-top: 40px;
   text-align: center;
