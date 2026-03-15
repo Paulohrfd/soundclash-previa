@@ -426,8 +426,8 @@ const tracks = [
     mode: "brazil"
   },
   {
-    title: "Catuquei",
-    artist: "Legião Urbano",
+    title: "Aquarela Luz",
+    artist: "Dada Yute, Matuê e Rael",
     embed: "https://open.spotify.com/embed/track/7hkQhMFq4EOTYwX3I7cgmA",
     mode: "brazil"
   },
