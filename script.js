@@ -2337,6 +2337,9 @@ function renderBattleScreen() {
         <button class="choice-btn" onclick="chooseTrackByIndex(${currentIndex + 1})">ESCOLHER</button>
       </div>
     </div>
+    <div class="site-logo">
+  <img src="logo.png" alt="SoundClash Logo">
+</div>
   `;
 }
 function renderLoadingScreen() {
