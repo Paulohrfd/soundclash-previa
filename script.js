@@ -2245,27 +2245,25 @@ function renderWinnerScreen() {
           <h4>Semifinais</h4>
 
           <div class="clean-match">
-            <div class="clean-team">${finalsHistory.semi?.[0]?.title || ""}</div>
-            <div class="clean-vs">VS</div>
-            <div class="clean-team">${finalsHistory.semi?.[1]?.title || ""}</div>
-          </div>
+<div class="clean-team ${finalsHistory.semiWinners.includes(finalsHistory.semi[0]) ? 'winner' : 'loser'}">${finalsHistory.semi[0].title}</div>
+<div class="clean-vs">VS</div>
+<div class="clean-team ${finalsHistory.semiWinners.includes(finalsHistory.semi[1]) ? 'winner' : 'loser'}">${finalsHistory.semi[1].title}</div>
+</div>
 
           <div class="clean-match">
-            <div class="clean-team">${finalsHistory.semi?.[2]?.title || ""}</div>
-            <div class="clean-vs">VS</div>
-            <div class="clean-team">${finalsHistory.semi?.[3]?.title || ""}</div>
-          </div>
-        </div>
+<div class="clean-team ${finalsHistory.semiWinners.includes(finalsHistory.semi[2]) ? 'winner' : 'loser'}">${finalsHistory.semi[2].title}</div>
+<div class="clean-vs">VS</div>
+<div class="clean-team ${finalsHistory.semiWinners.includes(finalsHistory.semi[3]) ? 'winner' : 'loser'}">${finalsHistory.semi[3].title}</div>
+</div>
 
         <div class="clean-bracket-section">
           <h4>Final</h4>
 
           <div class="clean-match final-match">
-            <div class="clean-team">${finalsHistory.final?.[0]?.title || ""}</div>
-            <div class="clean-vs">VS</div>
-            <div class="clean-team">${finalsHistory.final?.[1]?.title || ""}</div>
-          </div>
-        </div>
+<div class="clean-team ${champion === finalsHistory.final[0] ? 'winner' : 'loser'}">${finalsHistory.final[0].title}</div>
+<div class="clean-vs">VS</div>
+<div class="clean-team ${champion === finalsHistory.final[1] ? 'winner' : 'loser'}">${finalsHistory.final[1].title}</div>
+</div>
 
         <div class="clean-champion-block">
           <h4>🏆 Campeão</h4>
@@ -2595,3 +2593,14 @@ function handleRoute() {
 }
 
 handleRoute();
+
+.clean-team.winner{
+  background: linear-gradient(45deg,#7b4dff,#a06cff);
+  border:1px solid rgba(200,170,255,.6);
+  box-shadow:0 10px 30px rgba(123,77,255,.35);
+}
+
+.clean-team.loser{
+  opacity:.45;
+  filter:grayscale(.3);
+}
