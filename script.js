@@ -2306,9 +2306,6 @@ function renderBattleScreen() {
         <h2>${left.title}</h2>
         <p>${left.artist}</p>
 
-        <div class="player">
-          <div class="player">
-  <div class="player">
   <iframe
     loading="lazy"
     src="${left.embed}"
@@ -2338,12 +2335,13 @@ function renderBattleScreen() {
 
         <div class="player">
           <iframe
-            src="${right.embed}"
-            width="100%"
-            height="180"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy">
-          </iframe>
+    loading="lazy"
+    src="${right.embed}"
+    width="100%"
+    height="180"
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy">
+  </iframe>
           <p class="spotify-note">
             Ouça a música completa entrando no Spotify.
           </p>
