@@ -912,29 +912,30 @@ iframe {
 @media (max-width:600px){
 
   body{
-    font-size:14px;
+    font-size:13px;
   }
 
   .card{
-    padding:16px;
+    padding:14px;
   }
 
   .card h2{
-    font-size:20px;
+    font-size:18px;
   }
 
   .choice-btn{
-    padding:12px;
-    font-size:14px;
+    padding:10px;
+    font-size:13px;
   }
 
   .battle-grid{
-    gap:16px;
+    gap:14px;
   }
 
   iframe{
-    height:90px;
+    height:80px;
   }
+
 
 }
 .site-logo {
