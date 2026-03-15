@@ -1052,3 +1052,12 @@ iframe {
   opacity:.45;
   filter:grayscale(.3);
 }
+.share-card.export-mode.clean-share-card .clean-team {
+  font-size: 18px !important;
+  line-height: 1.15 !important;
+}
+
+.share-card.export-mode.clean-share-card .clean-champion-name {
+  font-size: 34px !important;
+  max-width: 620px !important;
+}
