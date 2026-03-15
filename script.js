@@ -1,182 +1,386 @@
 const tracks = [
   {
   title: "Bump, Bump, Bump",
-  artist: "B2K",
-  embed: "",
+  artist: "B2K e P. Diddy",
+  embed: "https://open.spotify.com/embed/track/75lRRdjplzfpmBjNzMPyjR",
   mode: "international"
+},
+  {
+    title: "One Dance ft. Wizkid & Kyla",
+    artist: "Drake",
+    embed: "https://open.spotify.com/embed/track/1zi7xx7UVEFkmKfv06H8x0",
+    mode: "international"
+},
+  {
+    title: "Seu Astral (Ao Vivo)",
+    artist: "Jorge & Mateus",
+    embed: "https://open.spotify.com/embed/track/2TE9rkhJYDctxgzak0AnSb",
+    mode: "brazil"
+  },
+  {
+    title: "Move",
+    artist: "Keinemusik",
+    embed: "https://open.spotify.com/embed/track/1BJJbSX6muJVF2AK7uH1x4",
+    mode: "international"
+},
+  {
+    title: "Cardigan",
+    artist: "Taylor Swift",
+    embed: "https://open.spotify.com/embed/track/4R2kfaDFhslZEMJqAFNpdd",
+    mode: "international"
+},
+  {
+    title: "Lindo Balão Azul",
+    artist: "Moraes Moreira, Baby Consuelo, Ricardo Graça Mello, Bebel e Aretha",
+    embed: "https://open.spotify.com/embed/track/5x8aaVV1gNm7PxOZZtM38H",
+    mode: "brazil"
+  },
+  {
+    title: "YMCA",
+    artist: "Village People",
+    embed: "https://open.spotify.com/embed/track/3ypMsqUwfNFMiooMLVHfkp",
+    mode: "international"
+},
+  {
+    title: "The Final Countdown",
+    artist: "Europe",
+    embed: "https://open.spotify.com/embed/track/3MrRksHupTVEQ7YbA0FsZK",
+    mode: "international"
+},
+  {
+    title: "I'm Still Standing",
+    artist: "Elton John",
+    embed: "https://open.spotify.com/embed/track/1jDJFeK9x3OZboIAHsY9k2",
+    mode: "international"
+},
+  {
+    title: "SPIT IN MY FACE!",
+    artist: "ThxSoMch",
+    embed: "https://open.spotify.com/embed/track/1N8TTK1Uoy7UvQNUazfUt5",
+    mode: "international"
+},
+  {
+    title: "Axel F",
+    artist: "Crazy Frog",
+    embed: "https://open.spotify.com/embed/track/0Bo5fjMtTfCD8vHGebivqc",
+    mode: "international"
+},
+  {
+    title: "Gangnam Style",
+    artist: "PSY",
+    embed: "https://open.spotify.com/embed/track/03UrZgTINDqvnUMbbIMhql",
+    mode: "international"
+},
+  {
+    title: "Heads Will Roll (A-Trak Remix)",
+    artist: "Yeah Yeah Yeahs",
+    embed: "https://open.spotify.com/embed/track/5bs8OXiOt4BPF2FAnRFP1u",
+    mode: "international"
+},
+  {
+    title: "Play Hard (feat. Ne-Yo & Akon)",
+    artist: "David Guetta",
+    embed: "https://open.spotify.com/embed/track/5YPMEOJ58kfl56VHxTgwx3",
+    mode: "international"
+},
+  {
+    title: "Gasolina",
+    artist: "Daddy Yankee",
+    embed: "https://open.spotify.com/embed/track/5YoITs1m0q8UOQ4AW7N5ga",
+    mode: "international"
+},
+  {
+    title: "HAY LUPITA",
+    artist: "Lomiiel",
+    embed: "https://open.spotify.com/embed/track/5jFA0f4ZDGLbQP4nxzL8D4",
+    mode: "international"
+},
+  {
+    title: "Y Que Fue?",
+    artist: "Don Miguelo",
+    embed: "https://open.spotify.com/embed/track/5UcVIU1tsbN7ZsOSpR8AFD",
+    mode: "international"
+},
+  {
+    title: "See You Again (part. Charlie Puth)",
+    artist: "Wiz Khalifa",
+    embed: "https://open.spotify.com/embed/track/2JzZzZUQj3Qff7wapcbKjc",
+    mode: "international"
+},
+  {
+    title: "Replay",
+    artist: "Iyaz",
+    embed: "https://open.spotify.com/embed/track/4E5P1XyAFtrjpiIxkydly4",
+    mode: "international"
+},
+  {
+    title: "Am I Wrong",
+    artist: "Nico & Vinz",
+    embed: "https://open.spotify.com/embed/track/1fidCEsYlaVE3pHwKCvpFZ",
+    mode: "international"
+},
+  {
+    title: "Beautiful Girls",
+    artist: "Sean Kingston",
+    embed: "https://open.spotify.com/embed/track/1hGy2eLcmC8eKx7qr1tOqx",
+    mode: "international"
+},
+  {
+    title: "Promiscuous (part. Timbaland)",
+    artist: "Nelly Furtado",
+    embed: "https://open.spotify.com/embed/track/2gam98EZKrF9XuOkU13ApN",
+    mode: "international"
+},
+  {
+    title: "Mirrors",
+    artist: "Justin Timberlake",
+    embed: "https://open.spotify.com/embed/track/4rHZZAmHpZrA3iH5zx8frV",
+    mode: "international"
+},
+  {
+    title: "Say My Name",
+    artist: "Destiny's Child",
+    embed: "https://open.spotify.com/embed/track/7H6ev70Weq6DdpZyyTmUXk",
+    mode: "international"
+},
+{
+    title: "Give Me Everything (part. Ne-Yo, Afrojack e Nayer)",
+    artist: "Pitbull",
+    embed: "https://open.spotify.com/embed/track/4QNpBfC0zvjKqPJcyqBy9W",
+    mode: "international"
+},
+  {
+    title: "Diamonds",
+    artist: "Rihanna",
+    embed: "https://open.spotify.com/embed/track/6O20JhBJPePEkBdrB5sqRx",
+    mode: "international"
+},
+  {
+    title: "Summer",
+    artist: "Calvin Harris",
+    embed: "https://open.spotify.com/embed/track/6YUTL4dYpB9xZO5qExPf05",
+    mode: "international"
+},
+{
+    title: "Good Feeling",
+    artist: "Flo Rida",
+    embed: "https://open.spotify.com/embed/track/3NcO4jGK1Opb5ea0mYLpxb",
+    mode: "international"
+},
+{
+    title: "The Lazy Song",
+    artist: "Bruno Mars",
+    embed: "https://open.spotify.com/embed/track/386RUes7n1uM1yfzgeUuwp",
+    mode: "international"
+  },
+  {
+    title: "Rude",
+    artist: "MAGIC!",
+    embed: "https://open.spotify.com/embed/track/6RtPijgfPKROxEzTHNRiDp",
+    mode: "international"
+},
+  {
+    title: "Call Me Maybe",
+    artist: "Carly Rae Jepsen",
+    embed: "https://open.spotify.com/embed/track/20I6sIOMTCkB6w7ryavxtO",
+    mode: "international"
+},
+  {
+    title: "Love Yourself",
+    artist: "Justin Bieber",
+    embed: "https://open.spotify.com/embed/track/50kpGaPAhYJ3sGmk6vplg0",
+    mode: "international"
+},
+  {
+    title: "What Makes You Beautiful",
+    artist: "One Direction",
+    embed: "https://open.spotify.com/embed/track/4cluDES4hQEUhmXj6TXkSo",
+    mode: "international"
 },
 {
   title: "Don't Matter",
   artist: "Akon",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/6Rf0WOY4eBHPKRu4tiMQ5c",
   mode: "international"
+},
+  {
+    title: "Right Round (part. Ke$ha)",
+    artist: "Flo Rida",
+    embed: "https://open.spotify.com/embed/track/3GpbwCm3YxiWDvy29Uo3vP",
+    mode: "international"
+},
+{
+    title: "One Time",
+    artist: "Justin Bieber",
+    embed: "https://open.spotify.com/embed/track/6eDApnV9Jdb1nYahOlbbUh",
+    mode: "international"
 },
 {
   title: "My Humps",
   artist: "The Black Eyed Peas",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/20jYtEun4dUdYZ9foaOC48",
   mode: "international"
 },
 {
   title: "Kiss Me Thru The Phone",
   artist: "Soulja Boy Tell'em e Sammie",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/2q4rjDy9WhaN3o9MvDbO21",
   mode: "international"
 },
 {
   title: "Say It Right",
   artist: "Nelly Furtado",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/2aI21FnmY7TJVKeMaoQZ0t",
   mode: "international"
 },
 {
   title: "My Boo",
-  artist: "Ghost Town DJs",
-  embed: "",
+  artist: "USHER",
+  embed: "https://open.spotify.com/embed/track/68vgtRHr7iZHpzGpon6Jlo",
   mode: "international"
 },
 {
   title: "Smack That",
   artist: "Akon",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/1pcOACWV5tnKt3bhvtLP82",
   mode: "international"
 },
 {
   title: "Hit Em Up",
   artist: "2Pac",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/2tF2gNW1JDXYW8IYUkpaYX",
   mode: "international"
 },
 {
   title: "P.I.M.P.",
   artist: "50 Cent",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/3G0yz3DZn3lfraledmBCT0",
   mode: "international"
 },
 {
   title: "Low",
   artist: "Flo Rida",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/0CAfXk7DXMnon4gLudAp7J",
   mode: "international"
 },
 {
   title: "Not Like Us",
   artist: "Kendrick Lamar",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/6AI3ezQ4o3HUoP6Dhudph3",
   mode: "international"
 },
 {
   title: "tv off",
   artist: "Kendrick Lamar",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/0aB0v4027ukVziUGwVGYpG",
   mode: "international"
 },
 {
   title: "Bank Account",
   artist: "21 Savage",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/5eqK0tbzUPo2SoeZsov04s",
   mode: "international"
 },
 {
   title: "Work",
   artist: "Rihanna e Drake",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/72TFWvU3wUYdUuxejTTIzt",
   mode: "international"
 },
 {
   title: "In My Feelings",
   artist: "Drake",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/2G7V7zsVDxg1yRsu7Ew9RJ",
   mode: "international"
 },
 {
   title: "Better Now",
   artist: "Post Malone",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/7dt6x5M1jzdTEt8oCbisTK",
   mode: "international"
 },
 {
   title: "FE!N",
   artist: "Travis Scott",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/42VsgItocQwOQC3XWZ8JNA",
   mode: "international"
 },
 {
   title: "20 Min",
   artist: "Lil Uzi Vert",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/0uxSUdBrJy9Un0EYoBowng",
   mode: "international"
 },
 {
   title: "This Is America",
   artist: "Childish Gambino",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/0b9oOr2ZgvyQu88wzixux9",
   mode: "international"
 },
 {
   title: "Thrift Shop",
   artist: "Macklemore & Ryan Lewis",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/1CmUZGtH29Kx36C1Hleqlz",
   mode: "international"
 },
 {
   title: "Chill Bill",
   artist: "Rob $tone, J. Davi$ e Spooks",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/5uDASfU19gDxSjW8cnCaBp",
   mode: "international"
 },
 {
   title: "See You Again",
   artist: "Tyler, The Creator e Kali Uchis",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/7KA4W4McWYRpgf0fWsJZWB",
   mode: "international"
 },
 {
   title: "Murder on My Mind",
   artist: "YNW Melly",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/7eBqSVxrzQZtK2mmgRG6lC",
   mode: "international"
 },
 {
   title: "The Box",
   artist: "Roddy Ricch",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/0nbXyq5TXYPCO7pr3N8S4I",
   mode: "international"
 },
 {
   title: "24K Magic",
   artist: "Bruno Mars",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/6b8Be6ljOzmkOmFslEb23P",
   mode: "international"
 },
 {
   title: "SICKO MODE",
   artist: "Travis Scott",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/2xLMifQCjDGFmkHkpNLD9h",
   mode: "international"
 },
 {
   title: "Ransom",
   artist: "Lil Tecca",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/1lOe9qE0vR9zwWQAOk6CoO",
   mode: "international"
 },
 {
   title: "Feel So Close",
   artist: "Calvin Harris",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/1gihuPhrLraKYrJMAEONyc",
   mode: "international"
 },
 {
   title: "I Gotta Feeling",
   artist: "The Black Eyed Peas",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/4kLLWz7srcuLKA7Et40PQR",
   mode: "international"
 },
 {
   title: "Club Can't Handle Me",
   artist: "Flo Rida e David Guetta",
-  embed: "",
+  embed: "https://open.spotify.com/embed/track/6ebkx7Q5tTxrCxKq4GYj0Y",
   mode: "international"
 },
   {
