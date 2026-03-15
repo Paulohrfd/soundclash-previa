@@ -2594,13 +2594,3 @@ function handleRoute() {
 
 handleRoute();
 
-.clean-team.winner{
-  background: linear-gradient(45deg,#7b4dff,#a06cff);
-  border:1px solid rgba(200,170,255,.6);
-  box-shadow:0 10px 30px rgba(123,77,255,.35);
-}
-
-.clean-team.loser{
-  opacity:.45;
-  filter:grayscale(.3);
-}
