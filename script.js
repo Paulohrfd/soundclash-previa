@@ -2302,7 +2302,7 @@ function renderBattleScreen() {
           <iframe
             src="${left.embed}"
             width="100%"
-            height="120"
+            height="180"
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy">
           </iframe>
@@ -2325,7 +2325,7 @@ function renderBattleScreen() {
           <iframe
             src="${right.embed}"
             width="100%"
-            height="120"
+            height="180"
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy">
           </iframe>
