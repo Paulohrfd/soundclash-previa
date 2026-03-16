@@ -2354,12 +2354,11 @@ function renderBattleScreen() {
         </div>
 
         <button
-          class="choice-btn"
-          onclick="chooseTrackByIndex(${currentIndex})"
-        >
-          ESCOLHER
-        </button>
-      </div>
+  class="choice-btn"
+  onclick="chooseTrackByIndex(${currentIndex})"
+>
+  ESCOLHER
+</button>
 
 
       <div class="vs desktop-vs">VS</div>
@@ -2385,12 +2384,11 @@ function renderBattleScreen() {
         </div>
 
         <button
-          class="choice-btn"
-          onclick="chooseTrackByIndex(${currentIndex + 1})"
-        >
-          ESCOLHER
-        </button>
-      </div>
+  class="choice-btn"
+  onclick="chooseTrackByIndex(${currentIndex + 1})"
+>
+  ESCOLHER
+</button>
 
     </div>
 
