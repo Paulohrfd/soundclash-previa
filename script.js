@@ -2699,6 +2699,20 @@ function loadTournamentProgress() {
 
 function clearTournamentProgress() {
   localStorage.removeItem(TOURNAMENT_PROGRESS_KEY);
+  
+}
+const path = window.location.pathname.toLowerCase();
+
+if (path === "/general" || path === "/international" || path === "/brazil") {
+  if (loadTournamentProgress() && started && currentRound.length > 0) {
+    render();
+  } else {
+    handleRoute();
+  }
+} else {
+  started = false;
+  champion = null;
+  render();
 }
 
 
