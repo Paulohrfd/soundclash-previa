@@ -2534,6 +2534,7 @@ async function chooseTrack(winner) {
 
   nextRound = [];
   currentIndex = 0;
+  saveTournamentProgress();
 
   const nextPhase = roundNames[currentRound.length] || "Próxima fase";
   loadingText = nextPhase;
@@ -2547,7 +2548,9 @@ async function chooseTrack(winner) {
 }
 
 function chooseTrackByIndex(index) {
-  chooseTrack(currentRound[index]);
+  const track = currentRound[index];
+  if (!track) return;
+  chooseTrack(track);
 }
 
 async function generateChampionImage() {
