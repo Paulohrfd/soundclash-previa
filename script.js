@@ -2458,8 +2458,8 @@ function startGame(mode = 'general') {
     }
   }
 
-  const shuffled = uniqueTracks(shuffle(selectedTracks));
-  const bracketSize = 2 ** Math.floor(Math.log2(shuffled.length));
+  const limited = shuffled.slice(0, 128);
+  const bracketSize = 2 ** Math.floor(Math.log2(limited.length));
 
   if (bracketSize < 2) {
     alert("Esse modo ainda não tem músicas suficientes.");
