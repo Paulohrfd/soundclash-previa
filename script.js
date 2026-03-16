@@ -2759,6 +2759,7 @@ function goHome() {
   window.history.pushState({}, "", "/");
   render();
 }
+
 } else {
   clearTournamentProgress();
   started = false;
