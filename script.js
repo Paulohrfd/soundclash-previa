@@ -1,3 +1,4 @@
+const TOURNAMENT_PROGRESS_KEY = "soundclash_tournament_progress";
 const tracks = [
   {
   title: "Bump, Bump, Bump",
@@ -2444,6 +2445,7 @@ function setLoading(text, delay = 900) {
 }
 
 function startGame(mode = 'general') {
+  clearTournamentProgress();
   let selectedTracks = tracks;
 
   if (mode === 'brazil') {
@@ -2500,6 +2502,7 @@ async function chooseTrack(winner) {
   currentIndex += 2;
 
   if (currentIndex < currentRound.length) {
+    saveTournamentProgress();
     render();
     return;
   }
@@ -2518,6 +2521,7 @@ async function chooseTrack(winner) {
   if (nextRound.length === 1) {
     champion = nextRound[0];
     saveChampion(champion);
+    saveTournamentProgress();
     render();
     return;
   }
@@ -2640,6 +2644,54 @@ function handleRoute() {
 }
 
 
-handleRoute();
+if (loadTournamentProgress() && currentRound.length > 0) {
+  render();
+} else {
+  handleRoute();
+}
 
+function saveTournamentProgress() {
+  const progress = {
+    currentRound,
+    nextRound,
+    currentIndex,
+    champion,
+    finalsHistory,
+    currentMode,
+    loadingPhase,
+    loadingText,
+    lastState,
+    undoAvailable
+  };
 
+  localStorage.setItem(
+    TOURNAMENT_PROGRESS_KEY,
+    JSON.stringify(progress)
+  );
+}
+function loadTournamentProgress() {
+  const raw = localStorage.getItem(TOURNAMENT_PROGRESS_KEY);
+  if (!raw) return false;
+
+  try {
+    const progress = JSON.parse(raw);
+
+    currentRound = progress.currentRound || [];
+    nextRound = progress.nextRound || [];
+    currentIndex = progress.currentIndex || 0;
+    champion = progress.champion || null;
+    finalsHistory = progress.finalsHistory || {};
+    currentMode = progress.currentMode || "general";
+    loadingPhase = progress.loadingPhase || false;
+    loadingText = progress.loadingText || "";
+    lastState = progress.lastState || null;
+    undoAvailable = progress.undoAvailable || false;
+
+    return true;
+  } catch {
+    return false;
+  }
+}
+function clearTournamentProgress() {
+  localStorage.removeItem(TOURNAMENT_PROGRESS_KEY);
+}
