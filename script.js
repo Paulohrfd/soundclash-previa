@@ -2656,7 +2656,6 @@ function handleRoute() {
 
 function saveTournamentProgress() {
   const progress = {
-    started,
     currentRound,
     nextRound,
     currentIndex,
@@ -2674,6 +2673,7 @@ function saveTournamentProgress() {
     JSON.stringify(progress)
   );
 }
+
 function loadTournamentProgress() {
   const raw = localStorage.getItem(TOURNAMENT_PROGRESS_KEY);
   if (!raw) return false;
@@ -2681,24 +2681,16 @@ function loadTournamentProgress() {
   try {
     const progress = JSON.parse(raw);
 
-    started = progress.started || false;
     currentRound = progress.currentRound || [];
     nextRound = progress.nextRound || [];
     currentIndex = progress.currentIndex || 0;
     champion = progress.champion || null;
-    finalsHistory = progress.finalsHistory || {
-      quarter: [],
-      semi: [],
-      final: [],
-      quarterWinners: [],
-      semiWinners: [],
-      finalWinner: null
-    };
+    finalsHistory = progress.finalsHistory || {};
     currentMode = progress.currentMode || "general";
     loadingPhase = progress.loadingPhase || false;
     loadingText = progress.loadingText || "";
     lastState = progress.lastState || null;
-    undoAvailable = progress.undoAvailable ?? true;
+    undoAvailable = progress.undoAvailable || false;
 
     return true;
   } catch {
@@ -2708,4 +2700,10 @@ function loadTournamentProgress() {
 
 function clearTournamentProgress() {
   localStorage.removeItem(TOURNAMENT_PROGRESS_KEY);
+}
+
+if (loadTournamentProgress() && currentRound.length > 0) {
+  render();
+} else {
+  handleRoute();
 }
