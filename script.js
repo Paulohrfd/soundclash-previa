@@ -2064,7 +2064,6 @@ const roundNames = {
   1: "Campeão"
 };
 
-const STORAGE_KEY = "soundclash_champions_v1";
 
 let started = false;
 let currentRound = [];
