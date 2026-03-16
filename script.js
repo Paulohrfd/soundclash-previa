@@ -2114,6 +2114,10 @@ function loadChampions() {
 }
 
 function saveChampion(track) {
+
+  // só salva no ranking se o modo for GENERAL
+  if (currentMode !== "general") return;
+
   const data = loadChampions();
   const key = `${track.title}__${track.artist}`;
 
