@@ -2711,3 +2711,8 @@ function clearTournamentProgress() {
   localStorage.removeItem(TOURNAMENT_PROGRESS_KEY);
 }
 
+if (loadTournamentProgress() && started && currentRound.length > 0) {
+  render();
+} else {
+  handleRoute();
+}
