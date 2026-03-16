@@ -2713,23 +2713,14 @@ const routeMode =
 
 const hasSavedProgress = loadTournamentProgress();
 
-const isFirstDuelOf64Avos =
-  started &&
-  currentRound.length === 128 &&
-  currentIndex === 0 &&
-  nextRound.length === 0 &&
-  !champion;
-
 if (routeMode) {
   if (
     hasSavedProgress &&
     currentMode === routeMode &&
-    currentRound.length > 0 &&
-    !isFirstDuelOf64Avos
+    currentRound.length > 0
   ) {
     render();
   } else {
-    clearTournamentProgress();
     handleRoute();
   }
 } else {
@@ -2742,7 +2733,7 @@ if (routeMode) {
   currentIndex = 0;
   render();
 }
-window.addEventListener("popstate", () => {
+
   const path = window.location.pathname.toLowerCase();
 
   if (path === "/" || path === "") {
@@ -2776,6 +2767,6 @@ function goHome() {
     finalWinner: null
   };
 
-  window.history.pushState({}, "", "/");
+  
   render();
 }
