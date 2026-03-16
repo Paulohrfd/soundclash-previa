@@ -2517,12 +2517,12 @@ async function chooseTrack(winner) {
   }
 
   if (nextRound.length === 1) {
-    champion = nextRound[0];
-    saveChampion(champion);
-    saveTournamentProgress();
-    render();
-    return;
-  }
+  champion = nextRound[0];
+  saveChampion(champion);
+  clearTournamentProgress();
+  render();
+  return;
+}
 
   if (nextRound.length <= 64) {
     currentRound = shuffle([...nextRound]);
