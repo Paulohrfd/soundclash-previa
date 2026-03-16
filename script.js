@@ -2054,6 +2054,7 @@ const tracks = [
 
 
 const roundNames = {
+  128: "64avos de final",
   64: "32avos de final",
   32: "16avos de final",
   16: "Oitavas de final",
@@ -2460,6 +2461,7 @@ function startGame(mode = 'general') {
   const shuffled = uniqueTracks(shuffle(selectedTracks));
 const limited = shuffled.slice(0, 128);
 const bracketSize = 2 ** Math.floor(Math.log2(limited.length));
+currentRound = limited.slice(0, bracketSize);
 
   if (bracketSize < 2) {
     alert("Esse modo ainda não tem músicas suficientes.");
@@ -2666,9 +2668,9 @@ const isFirstDuelOf64Avos =
 
 if (routeMode) {
   if (
-    hasSavedProgress &&
     currentMode === routeMode &&
     currentRound.length > 0 &&
+    const hasSavedProgress = loadTournamentProgress();
     !isFirstDuelOf64Avos
   ) {
     render();
