@@ -2501,7 +2501,6 @@ async function chooseTrack(winner) {
   nextRound.push(winner);
   currentIndex += 2;
 
-  if (currentIndex < currentRound.length) {
     saveTournamentProgress();
     render();
     return;
@@ -2518,7 +2517,6 @@ async function chooseTrack(winner) {
     finalsHistory.finalWinner = nextRound[0];
   }
 
-  if (nextRound.length === 1) {
     champion = nextRound[0];
     saveChampion(champion);
     saveTournamentProgress();
@@ -2533,7 +2531,6 @@ async function chooseTrack(winner) {
   }
 
   nextRound = [];
-  currentIndex = 0;
   saveTournamentProgress();
 
   const nextPhase = roundNames[currentRound.length] || "Próxima fase";
