@@ -2625,7 +2625,6 @@ function undoMove() {
 }
 
 function handleRoute() {
-  const path = window.location.pathname.toLowerCase();
 
   if (path === "/general") {
     startGame("general");
