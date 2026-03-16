@@ -2649,6 +2649,7 @@ function handleRoute() {
 
 function saveTournamentProgress() {
   const progress = {
+    started,
     currentRound,
     nextRound,
     currentIndex,
@@ -2674,12 +2675,24 @@ function loadTournamentProgress() {
   try {
     const progress = JSON.parse(raw);
 
+    started = progress.started || false;
     currentRound = progress.currentRound || [];
     nextRound = progress.nextRound || [];
     currentIndex = progress.currentIndex || 0;
     champion = progress.champion || null;
-    finalsHistory = progress.finalsHistory || {};
+    finalsHistory = progress.finalsHistory || {
+      quarter: [],
+      semi: [],
+      final: [],
+      quarterWinners: [],
+      semiWinners: [],
+      finalWinner: null
+    };
     currentMode = progress.currentMode || "general";
+    loadingPhase = progress.loadingPhase || false;
+    loadingText = progress.loadingText || "";
+    lastState = progress.lastState || null;
+    undoAvailable = progress.undoAvailable ?? true;
 
     return true;
   } catch {
@@ -2698,14 +2711,14 @@ const routeMode =
   path === "/general" ? "general" :
   null;
 
+const hasSavedProgress = loadTournamentProgress();
+
 const isFirstDuelOf64Avos =
   started &&
   currentRound.length === 128 &&
   currentIndex === 0 &&
   nextRound.length === 0 &&
   !champion;
-
-const hasSavedProgress = loadTournamentProgress();
 
 if (routeMode) {
   if (
@@ -2723,12 +2736,10 @@ if (routeMode) {
   clearTournamentProgress();
   started = false;
   champion = null;
+  currentMode = null;
   currentRound = [];
   nextRound = [];
   currentIndex = 0;
-
-  window.history.replaceState({}, "", "/");
-
   render();
 }
 
