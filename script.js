@@ -2658,7 +2658,6 @@ const routeMode =
   path === "/general" ? "general" :
   null;
 
-
 const isFirstDuelOf64Avos =
   started &&
   currentRound.length === 128 &&
@@ -2670,6 +2669,7 @@ const hasSavedProgress = loadTournamentProgress();
 
 if (routeMode) {
   if (
+    hasSavedProgress &&
     currentMode === routeMode &&
     currentRound.length > 0 &&
     !isFirstDuelOf64Avos
@@ -2683,7 +2683,6 @@ if (routeMode) {
   clearTournamentProgress();
   started = false;
   champion = null;
-  currentMode = null;
   currentRound = [];
   nextRound = [];
   currentIndex = 0;
