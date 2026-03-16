@@ -2445,7 +2445,6 @@ function setLoading(text, delay = 900) {
 
 function startGame(mode = 'general') {
   currentMode = mode;
-  clearTournamentProgress();
 
   let selectedTracks = tracks;
 
