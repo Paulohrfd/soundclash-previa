@@ -186,12 +186,6 @@ const tracks = [
     mode: "international"
 },
   {
-    title: "Love Yourself",
-    artist: "Justin Bieber",
-    embed: "https://open.spotify.com/embed/track/50kpGaPAhYJ3sGmk6vplg0",
-    mode: "international"
-},
-  {
     title: "What Makes You Beautiful",
     artist: "One Direction",
     embed: "https://open.spotify.com/embed/track/4cluDES4hQEUhmXj6TXkSo",
