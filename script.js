@@ -2629,11 +2629,6 @@ function undoMove() {
 function handleRoute() {
   const path = window.location.pathname.toLowerCase();
 
-  if (path === "/general") {
-    startGame("general");
-    return;
-  }
-
   if (path === "/international") {
     startGame("international");
     return;
@@ -2708,4 +2703,18 @@ if (loadTournamentProgress() && started && currentRound.length > 0) {
   render();
 } else {
   handleRoute();
+}
+
+const path = window.location.pathname.toLowerCase();
+
+if (path === "/general" || path === "/international" || path === "/brazil") {
+  if (loadTournamentProgress() && started && currentRound.length > 0) {
+    render();
+  } else {
+    handleRoute();
+  }
+} else {
+  started = false;
+  champion = null;
+  render();
 }
