@@ -2714,4 +2714,3 @@ if (loadTournamentProgress() && started && currentRound.length > 0) {
   render();
 } else {
   handleRoute();
-}
