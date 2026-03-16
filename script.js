@@ -2457,8 +2457,9 @@ function startGame(mode = 'general') {
     }
   }
 
-  const limited = shuffled.slice(0, 128);
-  const bracketSize = 2 ** Math.floor(Math.log2(limited.length));
+  const shuffled = uniqueTracks(shuffle(selectedTracks));
+const limited = shuffled.slice(0, 128);
+const bracketSize = 2 ** Math.floor(Math.log2(limited.length));
 
   if (bracketSize < 2) {
     alert("Esse modo ainda não tem músicas suficientes.");
@@ -2466,7 +2467,7 @@ function startGame(mode = 'general') {
   }
 
   started = true;
-  currentRound = shuffled.slice(0, bracketSize);
+  currentRound = limited.slice(0, bracketSize);
   nextRound = [];
   currentIndex = 0;
   champion = null;
@@ -2624,6 +2625,7 @@ function undoMove() {
 }
 
 function handleRoute() {
+  const path = window.location.pathname.toLowerCase();
 
   if (path === "/general") {
     startGame("general");
@@ -2701,11 +2703,31 @@ function clearTournamentProgress() {
   
 }
 const path = window.location.pathname.toLowerCase();
+const routeMode =
+  path === "/brazil" ? "brazil" :
+  path === "/international" ? "international" :
+  path === "/general" ? "general" :
+  null;
 
-if (path === "/general" || path === "/international" || path === "/brazil") {
-  if (loadTournamentProgress() && started && currentRound.length > 0) {
+const hasSavedProgress = loadTournamentProgress();
+
+const isFirstDuelOf64Avos =
+  started &&
+  currentRound.length === 128 &&
+  currentIndex === 0 &&
+  nextRound.length === 0 &&
+  !champion;
+
+if (routeMode) {
+  if (
+    hasSavedProgress &&
+    currentMode === routeMode &&
+    currentRound.length > 0 &&
+    !isFirstDuelOf64Avos
+  ) {
     render();
   } else {
+    clearTournamentProgress();
     handleRoute();
   }
 } else {
