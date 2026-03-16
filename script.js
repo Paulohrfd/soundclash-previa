@@ -2734,6 +2734,32 @@ if (routeMode) {
   render();
 }
 
+window.addEventListener("popstate", () => {
+  const currentPath = window.location.pathname.toLowerCase();
+
+  if (currentPath === "/" || currentPath === "") {
+    clearTournamentProgress();
+    started = false;
+    champion = null;
+    currentMode = null;
+    currentRound = [];
+    nextRound = [];
+    currentIndex = 0;
+    finalsHistory = {
+      quarter: [],
+      semi: [],
+      final: [],
+      quarterWinners: [],
+      semiWinners: [],
+      finalWinner: null
+    };
+    render();
+    return;
+  }
+
+  handleRoute();
+});
+
 
 function goHome() {
   clearTournamentProgress();
