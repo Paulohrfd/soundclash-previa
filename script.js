@@ -2726,6 +2726,9 @@ if (routeMode) {
   currentRound = [];
   nextRound = [];
   currentIndex = 0;
+
+  window.history.replaceState({}, "", "/");
+
   render();
 }
 
