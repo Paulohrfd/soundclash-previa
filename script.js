@@ -2054,7 +2054,6 @@ const tracks = [
 
 
 const roundNames = {
-  128: "64avos de final",
   64: "32avos de final",
   32: "16avos de final",
   16: "Oitavas de final",
