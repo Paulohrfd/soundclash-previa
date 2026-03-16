@@ -1,4 +1,8 @@
-const TOURNAMENT_PROGRESS_KEY = "soundclash_tournament_progress";
+const STORAGE_KEY = "soundclash_champions_v1";
+const TOURNAMENT_PROGRESS_KEY = "soundclash_tournament_progress_v1";
+
+let started = false;
+let currentMode = "general";
 const tracks = [
   {
   title: "Bump, Bump, Bump",
@@ -2445,7 +2449,9 @@ function setLoading(text, delay = 900) {
 }
 
 function startGame(mode = 'general') {
+  currentMode = mode;
   clearTournamentProgress();
+
   let selectedTracks = tracks;
 
   if (mode === 'brazil') {
@@ -2487,6 +2493,7 @@ function startGame(mode = 'general') {
   undoAvailable = true;
   lastState = null;
 
+  saveTournamentProgress();
   render();
 }
   
@@ -2501,11 +2508,11 @@ async function chooseTrack(winner) {
   nextRound.push(winner);
   currentIndex += 2;
 
+  if (currentIndex < currentRound.length) {
     saveTournamentProgress();
     render();
     return;
   }
-
 
   if (currentRound.length === 4) {
     finalsHistory.semi = [...currentRound];
@@ -2517,6 +2524,7 @@ async function chooseTrack(winner) {
     finalsHistory.finalWinner = nextRound[0];
   }
 
+  if (nextRound.length === 1) {
     champion = nextRound[0];
     saveChampion(champion);
     saveTournamentProgress();
@@ -2531,15 +2539,17 @@ async function chooseTrack(winner) {
   }
 
   nextRound = [];
-  saveTournamentProgress();
+  currentIndex = 0;
 
   const nextPhase = roundNames[currentRound.length] || "Próxima fase";
   loadingText = nextPhase;
   loadingPhase = true;
+  saveTournamentProgress();
   render();
 
   setTimeout(() => {
     loadingPhase = false;
+    saveTournamentProgress();
     render();
   }, 900);
 }
@@ -2643,8 +2653,6 @@ function handleRoute() {
   render();
 }
 
-handleRoute();
-
 function saveTournamentProgress() {
   const progress = {
     currentRound,
@@ -2689,4 +2697,10 @@ function loadTournamentProgress() {
 }
 function clearTournamentProgress() {
   localStorage.removeItem(TOURNAMENT_PROGRESS_KEY);
+}
+
+if (loadTournamentProgress() && currentRound.length > 0) {
+  render();
+} else {
+  handleRoute();
 }
