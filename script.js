@@ -2390,7 +2390,6 @@ function renderBattleScreen() {
   ESCOLHER
 </button>
 
-    </div>
 
 
     <div class="site-logo">
