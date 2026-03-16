@@ -2327,14 +2327,12 @@ function renderBattleScreen() {
           : ""
       }
 
-      <button class="main-btn" onclick="startGame()">
+      <button class="main-btn" onclick="clearTournamentProgress(); startGame(currentMode)">
         REINICIAR
       </button>
     </div>
 
-
     <div class="battle-grid">
-
       <div class="card">
         <h2>${left.title}</h2>
         <p>${left.artist}</p>
@@ -2354,16 +2352,15 @@ function renderBattleScreen() {
         </div>
 
         <button
-  class="choice-btn"
-  onclick="chooseTrackByIndex(${currentIndex})"
->
-  ESCOLHER
-</button>
-
+          class="choice-btn"
+          onclick="chooseTrackByIndex(${currentIndex})"
+        >
+          ESCOLHER
+        </button>
+      </div>
 
       <div class="vs desktop-vs">VS</div>
       <div class="vs-mobile">VS</div>
-
 
       <div class="card">
         <h2>${right.title}</h2>
@@ -2384,19 +2381,20 @@ function renderBattleScreen() {
         </div>
 
         <button
-  class="choice-btn"
-  onclick="chooseTrackByIndex(${currentIndex + 1})"
->
-  ESCOLHER
-</button>
-
-
+          class="choice-btn"
+          onclick="chooseTrackByIndex(${currentIndex + 1})"
+        >
+          ESCOLHER
+        </button>
+      </div>
+    </div>
 
     <div class="site-logo">
       <img src="logo.png" alt="SoundClash">
     </div>
   `;
 }
+
 function renderLoadingScreen() {
   return `
     <div class="start-screen hero-screen">
@@ -2629,6 +2627,11 @@ function undoMove() {
 function handleRoute() {
   const path = window.location.pathname.toLowerCase();
 
+  if (path === "/general") {
+    startGame("general");
+    return;
+  }
+
   if (path === "/international") {
     startGame("international");
     return;
@@ -2699,22 +2702,4 @@ function clearTournamentProgress() {
   localStorage.removeItem(TOURNAMENT_PROGRESS_KEY);
 }
 
-if (loadTournamentProgress() && started && currentRound.length > 0) {
-  render();
-} else {
-  handleRoute();
-}
 
-const path = window.location.pathname.toLowerCase();
-
-if (path === "/general" || path === "/international" || path === "/brazil") {
-  if (loadTournamentProgress() && started && currentRound.length > 0) {
-    render();
-  } else {
-    handleRoute();
-  }
-} else {
-  started = false;
-  champion = null;
-  render();
-}
