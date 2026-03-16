@@ -1,8 +1,7 @@
 const STORAGE_KEY = "soundclash_champions_v1";
 const TOURNAMENT_PROGRESS_KEY = "soundclash_tournament_progress_v1";
-
-let started = false;
 let currentMode = "general";
+
 const tracks = [
   {
   title: "Bump, Bump, Bump",
@@ -2650,11 +2649,15 @@ function handleRoute() {
     return;
   }
 
+  if (loadTournamentProgress() && started && currentRound.length > 0) {
   render();
+} else {
+  handleRoute();
 }
 
 function saveTournamentProgress() {
   const progress = {
+    started,
     currentRound,
     nextRound,
     currentIndex,
@@ -2679,28 +2682,32 @@ function loadTournamentProgress() {
   try {
     const progress = JSON.parse(raw);
 
+    started = progress.started || false;
     currentRound = progress.currentRound || [];
     nextRound = progress.nextRound || [];
     currentIndex = progress.currentIndex || 0;
     champion = progress.champion || null;
-    finalsHistory = progress.finalsHistory || {};
+    finalsHistory = progress.finalsHistory || {
+      quarter: [],
+      semi: [],
+      final: [],
+      quarterWinners: [],
+      semiWinners: [],
+      finalWinner: null
+    };
     currentMode = progress.currentMode || "general";
     loadingPhase = progress.loadingPhase || false;
     loadingText = progress.loadingText || "";
     lastState = progress.lastState || null;
-    undoAvailable = progress.undoAvailable || false;
+    undoAvailable = progress.undoAvailable ?? true;
 
     return true;
   } catch {
     return false;
   }
 }
+
 function clearTournamentProgress() {
   localStorage.removeItem(TOURNAMENT_PROGRESS_KEY);
 }
 
-if (loadTournamentProgress() && currentRound.length > 0) {
-  render();
-} else {
-  handleRoute();
-}
