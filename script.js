@@ -2734,22 +2734,6 @@ if (routeMode) {
   render();
 }
 
-  const path = window.location.pathname.toLowerCase();
-
-  if (path === "/" || path === "") {
-    clearTournamentProgress();
-    started = false;
-    champion = null;
-    currentMode = null;
-    currentRound = [];
-    nextRound = [];
-    currentIndex = 0;
-    render();
-    return;
-  }
-
-  handleRoute();
-});
 
 function goHome() {
   clearTournamentProgress();
