@@ -2647,6 +2647,30 @@ function handleRoute() {
   render();
 }
 
+function loadTournamentProgress() {
+  const raw = localStorage.getItem(TOURNAMENT_PROGRESS_KEY);
+  if (!raw) return false;
+
+  try {
+    const progress = JSON.parse(raw);
+
+    currentRound = progress.currentRound || [];
+    nextRound = progress.nextRound || [];
+    currentIndex = progress.currentIndex || 0;
+    champion = progress.champion || null;
+    finalsHistory = progress.finalsHistory || {};
+    currentMode = progress.currentMode || "general";
+    loadingPhase = progress.loadingPhase || false;
+    loadingText = progress.loadingText || "";
+    lastState = progress.lastState || null;
+    undoAvailable = progress.undoAvailable || false;
+
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 function clearTournamentProgress() {
   localStorage.removeItem(TOURNAMENT_PROGRESS_KEY);
 }
