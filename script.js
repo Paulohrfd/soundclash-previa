@@ -2643,12 +2643,7 @@ function handleRoute() {
   render();
 }
 
-
-if (loadTournamentProgress() && currentRound.length > 0) {
-  render();
-} else {
-  handleRoute();
-}
+handleRoute();
 
 function saveTournamentProgress() {
   const progress = {
