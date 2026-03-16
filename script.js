@@ -2709,4 +2709,3 @@ function loadTournamentProgress() {
 function clearTournamentProgress() {
   localStorage.removeItem(TOURNAMENT_PROGRESS_KEY);
 }
-
