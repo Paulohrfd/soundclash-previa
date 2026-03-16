@@ -2666,11 +2666,12 @@ const isFirstDuelOf64Avos =
   nextRound.length === 0 &&
   !champion;
 
+const hasSavedProgress = loadTournamentProgress();
+
 if (routeMode) {
   if (
     currentMode === routeMode &&
     currentRound.length > 0 &&
-    const hasSavedProgress = loadTournamentProgress();
     !isFirstDuelOf64Avos
   ) {
     render();
