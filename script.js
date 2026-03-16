@@ -2740,4 +2740,32 @@ if (routeMode) {
   currentIndex = 0;
   render();
 }
+function goHome() {
+  clearTournamentProgress();
+  started = false;
+  champion = null;
+  currentRound = [];
+  nextRound = [];
+  currentIndex = 0;
+  finalsHistory = {
+    quarter: [],
+    semi: [],
+    final: [],
+    quarterWinners: [],
+    semiWinners: [],
+    finalWinner: null
+  };
+
+  window.history.pushState({}, "", "/");
+  render();
+}
+} else {
+  clearTournamentProgress();
+  started = false;
+  champion = null;
+  currentRound = [];
+  nextRound = [];
+  currentIndex = 0;
+  render();
+}
 
