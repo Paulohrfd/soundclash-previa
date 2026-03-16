@@ -2647,6 +2647,26 @@ function handleRoute() {
   render();
 }
 
+function saveTournamentProgress() {
+  const progress = {
+    currentRound,
+    nextRound,
+    currentIndex,
+    champion,
+    finalsHistory,
+    currentMode,
+    loadingPhase,
+    loadingText,
+    lastState,
+    undoAvailable
+  };
+
+  localStorage.setItem(
+    TOURNAMENT_PROGRESS_KEY,
+    JSON.stringify(progress)
+  );
+}
+
 function loadTournamentProgress() {
   const raw = localStorage.getItem(TOURNAMENT_PROGRESS_KEY);
   if (!raw) return false;
@@ -2660,10 +2680,6 @@ function loadTournamentProgress() {
     champion = progress.champion || null;
     finalsHistory = progress.finalsHistory || {};
     currentMode = progress.currentMode || "general";
-    loadingPhase = progress.loadingPhase || false;
-    loadingText = progress.loadingText || "";
-    lastState = progress.lastState || null;
-    undoAvailable = progress.undoAvailable || false;
 
     return true;
   } catch {
