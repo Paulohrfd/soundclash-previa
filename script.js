@@ -422,7 +422,7 @@ const tracks = [
   {
     title: "Aquarela Luz",
     artist: "Dada Yute, Matuê e Rael",
-    embed: "https://open.spotify.com/embed/track/7hkQhMFq4EOTYwX3I7cgmA",
+    embed: "  https://open.spotify.com/embed/track/5XTShiHeVnUbzSVNRRFvfV",
     mode: "brazil"
   },
   {
@@ -540,7 +540,7 @@ const tracks = [
     mode: "brazil"
   },
   {
-    title: "Matuê - Isso é Sério ",
+    title: "Matuê - Isso é Sério",
     artist: "Brandão85 e Matuê",
     embed: "https://open.spotify.com/embed/track/3Sa2gVQioE31DcG4nKNDqD",
     mode: "brazil"
@@ -1062,7 +1062,7 @@ const tracks = [
   mode: "international"
 },
 {
-  title: "goosebumps ",
+  title: "goosebumps",
   artist: "Travis Scott",
   embed: "https://open.spotify.com/embed/track/6gBFPUFcJLzWGx4lenP6h2",
   mode: "international"
