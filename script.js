@@ -2731,14 +2731,6 @@ if (routeMode) {
     handleRoute();
   }
 
-} else {
-  clearTournamentProgress();
-  started = false;
-  champion = null;
-  currentRound = [];
-  nextRound = [];
-  currentIndex = 0;
-  render();
 }
 function goHome() {
   clearTournamentProgress();
