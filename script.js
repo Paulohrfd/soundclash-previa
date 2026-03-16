@@ -2645,63 +2645,10 @@ function handleRoute() {
   render();
 }
 
-function saveTournamentProgress() {
-  const progress = {
-    started,
-    currentRound,
-    nextRound,
-    currentIndex,
-    champion,
-    finalsHistory,
-    currentMode,
-    loadingPhase,
-    loadingText,
-    lastState,
-    undoAvailable
-  };
-
-  localStorage.setItem(
-    TOURNAMENT_PROGRESS_KEY,
-    JSON.stringify(progress)
-  );
-}
-
-function loadTournamentProgress() {
-  const raw = localStorage.getItem(TOURNAMENT_PROGRESS_KEY);
-  if (!raw) return false;
-
-  try {
-    const progress = JSON.parse(raw);
-
-    started = progress.started || false;
-    currentRound = progress.currentRound || [];
-    nextRound = progress.nextRound || [];
-    currentIndex = progress.currentIndex || 0;
-    champion = progress.champion || null;
-    finalsHistory = progress.finalsHistory || {
-      quarter: [],
-      semi: [],
-      final: [],
-      quarterWinners: [],
-      semiWinners: [],
-      finalWinner: null
-    };
-    currentMode = progress.currentMode || "general";
-    loadingPhase = progress.loadingPhase || false;
-    loadingText = progress.loadingText || "";
-    lastState = progress.lastState || null;
-    undoAvailable = progress.undoAvailable ?? true;
-
-    return true;
-  } catch {
-    return false;
-  }
-}
-
 function clearTournamentProgress() {
   localStorage.removeItem(TOURNAMENT_PROGRESS_KEY);
-  
 }
+
 const path = window.location.pathname.toLowerCase();
 const routeMode =
   path === "/brazil" ? "brazil" :
@@ -2730,8 +2677,16 @@ if (routeMode) {
     clearTournamentProgress();
     handleRoute();
   }
-
+} else {
+  clearTournamentProgress();
+  started = false;
+  champion = null;
+  currentRound = [];
+  nextRound = [];
+  currentIndex = 0;
+  render();
 }
+
 function goHome() {
   clearTournamentProgress();
   started = false;
@@ -2751,14 +2706,3 @@ function goHome() {
   window.history.pushState({}, "", "/");
   render();
 }
-
-} else {
-  clearTournamentProgress();
-  started = false;
-  champion = null;
-  currentRound = [];
-  nextRound = [];
-  currentIndex = 0;
-  render();
-}
-
