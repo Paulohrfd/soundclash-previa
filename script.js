@@ -10,6 +10,294 @@ const tracks = [
   mode: "international"
 },
   {
+  title: "Blinding Lights",
+  artist: "The Weeknd",
+  embed: "https://open.spotify.com/embed/track/0VjIjW4GlUZAMYd2vXMi3b",
+  mode: "international"
+},
+{
+  title: "Stairway to Heaven",
+  artist: "Led Zeppelin",
+  embed: "https://open.spotify.com/embed/track/5CQ30WqJwcep0pYcV4AMNc",
+  mode: "international"
+},
+{
+  title: "Dreams",
+  artist: "Fleetwood Mac",
+  embed: "https://open.spotify.com/embed/track/0ofHAoxe9vBkTCp2UQIavz",
+  mode: "international"
+},
+{
+  title: "Sweet Dreams (Are Made of This)",
+  artist: "Eurythmics",
+  embed: "https://open.spotify.com/embed/track/1TfqLAPs4K3s2rJMoCokcS",
+  mode: "international"
+},
+{
+  title: "Take My Breath",
+  artist: "The Weeknd",
+  embed: "https://open.spotify.com/embed/track/2vgUijXOTRMnWXDtvgMp2b",
+  mode: "international"
+},
+{
+  title: "Dilemma",
+  artist: "Nelly e Kelly Rowland",
+  embed: "https://open.spotify.com/embed/track/0ARK753YaiJbpLUk7z5yIM",
+  mode: "international"
+},
+{
+  title: "Hips Don't Lie",
+  artist: "Shakira e Wyclef Jean",
+  embed: "https://open.spotify.com/embed/track/3ZFTkvIE7kyPt6Nu3PEa7V",
+  mode: "international"
+},
+{
+  title: "Whenever, Wherever",
+  artist: "Shakira",
+  embed: "https://open.spotify.com/embed/track/2lnzGkdtDj5mtlcOW2yRtG",
+  mode: "international"
+},
+{
+  title: "Waka Waka (This Time for Africa)",
+  artist: "Shakira",
+  embed: "https://open.spotify.com/embed/track/6bNB5gxFX6Q87DbQWb8OWZ",
+  mode: "international"
+},
+{
+  title: "She Will Be Loved",
+  artist: "Maroon 5",
+  embed: "https://open.spotify.com/embed/track/7sapKrjDij2fpDVj0GxP66",
+  mode: "international"
+},
+{
+  title: "All of Me",
+  artist: "John Legend",
+  embed: "https://open.spotify.com/embed/track/3U4isOIWM3VvDubwSI3y7a",
+  mode: "international"
+},
+{
+  title: "This Love",
+  artist: "Maroon 5",
+  embed: "https://open.spotify.com/embed/track/6ECp64rv50XVz93WvxXMGF",
+  mode: "international"
+},
+{
+  title: "Payphone",
+  artist: "Maroon 5 e Wiz Khalifa",
+  embed: "https://open.spotify.com/embed/track/1XGmzt0PVuFgQYYnV2It7A",
+  mode: "international"
+},
+{
+  title: "Sugar",
+  artist: "Maroon 5",
+  embed: "https://open.spotify.com/embed/track/5d6Mjuu2uCGRPYpFjGpCX5",
+  mode: "international"
+},
+{
+  title: "Maps",
+  artist: "Maroon 5",
+  embed: "https://open.spotify.com/embed/track/4gbVRS8gloEluzf0GzDOFc",
+  mode: "international"
+},
+{
+  title: "Vampire",
+  artist: "Olivia Rodrigo",
+  embed: "https://open.spotify.com/embed/track/1kuGVB7EU95pJObxwvfwKS",
+  mode: "international"
+},
+{
+  title: "Deja Vu",
+  artist: "Olivia Rodrigo",
+  embed: "https://open.spotify.com/embed/track/61KpQadow081I2AsbeLcsb",
+  mode: "international"
+},
+{
+  title: "Traitor",
+  artist: "Olivia Rodrigo",
+  embed: "https://open.spotify.com/embed/track/5CZ40GBx1sQ9agT82CLQCT",
+  mode: "international"
+},
+{
+  title: "Unwritten",
+  artist: "Natasha Bedingfield",
+  embed: "https://open.spotify.com/embed/track/3U5JVgI2x4rDyHGObzJfNf",
+  mode: "international"
+},
+{
+  title: "Pocketful of Sunshine",
+  artist: "Natasha Bedingfield",
+  embed: "https://open.spotify.com/embed/track/1uigwk5hNV84zRd5YQQRTk",
+  mode: "international"
+},
+{
+  title: "I Kissed a Girl",
+  artist: "Katy Perry",
+  embed: "https://open.spotify.com/embed/track/1pXrR5Y9OgcIV2JEAl2lCB",
+  mode: "international"
+},
+{
+  title: "Hot N Cold",
+  artist: "Katy Perry",
+  embed: "https://open.spotify.com/embed/track/1TEjSXPdAakDotj2Wji3PU",
+  mode: "international"
+},
+{
+  title: "E.T.",
+  artist: "Katy Perry e Kanye West",
+  embed: "https://open.spotify.com/embed/track/36ux3YuUsGTWPT8fXclS45",
+  mode: "international"
+},
+{
+  title: "Wide Awake",
+  artist: "Katy Perry",
+  embed: "https://open.spotify.com/embed/track/5JLv62qFIS1DR3zGEcApRt",
+  mode: "international"
+},
+{
+  title: "Someone Like You",
+  artist: "Adele",
+  embed: "https://open.spotify.com/embed/track/4kflIGfjdZJW4ot2ioixTB",
+  mode: "international"
+},
+{
+  title: "Set Fire to the Rain",
+  artist: "Adele",
+  embed: "https://open.spotify.com/embed/track/73CMRj62VK8nUS4ezD2wvi",
+  mode: "international"
+},
+{
+  title: "Rumour Has It",
+  artist: "Adele",
+  embed: "https://open.spotify.com/embed/track/2A73XBDBQgmdXO8VsXPWIs",
+  mode: "international"
+},
+{
+  title: "We Found Love",
+  artist: "Rihanna e Calvin Harris",
+  embed: "https://open.spotify.com/embed/track/6qn9YLKt13AGvpq9jfO8py",
+  mode: "international"
+},
+{
+  title: "Only Girl (In The World)",
+  artist: "Rihanna",
+  embed: "https://open.spotify.com/embed/track/0AH6WMe3OlAlUb5miXt2FQ",
+  mode: "international"
+},
+{
+  title: "Disturbia",
+  artist: "Rihanna",
+  embed: "https://open.spotify.com/embed/track/2VOomzT6VavJOGBeySqaMc",
+  mode: "international"
+},
+{
+  title: "S&M",
+  artist: "Rihanna",
+  embed: "https://open.spotify.com/embed/track/0C4ejWmOTMv8vuYj85mf8m",
+  mode: "international"
+},
+{
+  title: "When I Was Your Man",
+  artist: "Bruno Mars",
+  embed: "https://open.spotify.com/embed/track/0nJW01T7XtvILxQgC5J7Wh",
+  mode: "international"
+},
+{
+  title: "Marry You",
+  artist: "Bruno Mars",
+  embed: "https://open.spotify.com/embed/track/6SKwQghsR8AISlxhcwyA9R",
+  mode: "international"
+},
+{
+  title: "Talking to the Moon",
+  artist: "Bruno Mars",
+  embed: "https://open.spotify.com/embed/track/161DnLWsx1i3u1JT05lzqU",
+  mode: "international"
+},
+{
+  title: "Finesse",
+  artist: "Bruno Mars",
+  embed: "https://open.spotify.com/embed/track/5XMkENs3GfeRza8MfVAhjK",
+  mode: "international"
+},
+{
+  title: "Photograph",
+  artist: "Ed Sheeran",
+  embed: "https://open.spotify.com/embed/track/6fxVffaTuwjgEk5h9QyRjy",
+  mode: "international"
+},
+{
+  title: "Castle on the Hill",
+  artist: "Ed Sheeran",
+  embed: "https://open.spotify.com/embed/track/6PCUP3dWmTjcTtXY02oFdT",
+  mode: "international"
+},
+{
+  title: "Galway Girl",
+  artist: "Ed Sheeran",
+  embed: "https://open.spotify.com/embed/track/0afhq8XCExXpqazXczTSve",
+  mode: "international"
+},
+{
+  title: "Breaking the Habit",
+  artist: "Linkin Park",
+  embed: "https://open.spotify.com/embed/track/6n8TMVyFKoUmDc4apxceRD",
+  mode: "international"
+},
+{
+  title: "New Divide",
+  artist: "Linkin Park",
+  embed: "https://open.spotify.com/embed/track/5wmkQbOUTLjnDsdLeNgtO3",
+  mode: "international"
+},
+{
+  title: "Burn",
+  artist: "Ellie Goulding",
+  embed: "https://open.spotify.com/embed/track/2GgxS8bUT5G25QJTsfSv0R",
+  mode: "international"
+},
+{
+  title: "Lights",
+  artist: "Ellie Goulding",
+  embed: "https://open.spotify.com/embed/track/0LRCcpSgeozipxPpRg5wzx",
+  mode: "international"
+},
+{
+  title: "On Top of the World",
+  artist: "Imagine Dragons",
+  embed: "https://open.spotify.com/embed/track/213x4gsFDm04hSqIUkg88w",
+  mode: "international"
+},
+{
+  title: "Whatever It Takes",
+  artist: "Imagine Dragons",
+  embed: "https://open.spotify.com/embed/track/6Qn5zhYkTa37e91HC1D7lb",
+  mode: "international"
+},
+{
+  title: "Bones",
+  artist: "Imagine Dragons",
+  embed: "https://open.spotify.com/embed/track/0HqZX76SFLDz2aW8aiqi7G",
+  mode: "international"
+},
+{
+  title: "Oops!...I Did It Again",
+  artist: "Britney Spears",
+  embed: "https://open.spotify.com/embed/track/6naxalmIoLFWR0siv8dnQQ",
+  mode: "international"
+{
+},
+  title: "Ebony Eyes",
+  artist: "Rick James",
+  embed: "https://open.spotify.com/embed/track/71JkyCi11ETSz58jhgg2YE",
+  mode: "international"
+},
+{
+    title: "God Is",
+    artist: "Kanye West",
+    embed: "https://open.spotify.com/embed/track/6xRWoYwfwIKnT8bQGzKbxR",
+    mode: "international"
+},
+  {
     title: "One Dance ft. Wizkid & Kyla",
     artist: "Drake",
     embed: "https://open.spotify.com/embed/track/1zi7xx7UVEFkmKfv06H8x0",
