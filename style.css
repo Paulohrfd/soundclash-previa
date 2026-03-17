@@ -1061,3 +1061,10 @@ iframe {
   font-size: 34px !important;
   max-width: 620px !important;
 }
+
+/* ESCONDER NO MOBILE */
+@media (max-width: 600px) {
+  .spotify-note {
+    display: none;
+  }
+}
