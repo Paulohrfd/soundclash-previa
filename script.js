@@ -572,8 +572,8 @@ const tracks = [
   artist: "Britney Spears",
   embed: "https://open.spotify.com/embed/track/6naxalmIoLFWR0siv8dnQQ",
   mode: "international"
-{
 },
+  {
   title: "Ebony Eyes",
   artist: "Rick James",
   embed: "https://open.spotify.com/embed/track/71JkyCi11ETSz58jhgg2YE",
