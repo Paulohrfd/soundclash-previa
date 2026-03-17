@@ -3043,7 +3043,7 @@ function renderBattleScreen() {
           </iframe>
 
           <p class="spotify-note">
-           .
+           
           </p>
         </div>
 
