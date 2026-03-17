@@ -3043,7 +3043,7 @@ function renderBattleScreen() {
           </iframe>
 
           <p class="spotify-note">
-            Ouça a música completa entrando no Spotify.
+           .
           </p>
         </div>
 
@@ -3072,7 +3072,7 @@ function renderBattleScreen() {
           </iframe>
 
           <p class="spotify-note">
-            Ouça a música completa entrando no Spotify.
+            
           </p>
         </div>
 
