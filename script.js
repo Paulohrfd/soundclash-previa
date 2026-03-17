@@ -1036,9 +1036,9 @@ const tracks = [
     mode: "brazil"
   },
   {
-    title: "Cabaré",
-    artist: "Dj Guuga e Mc Pierre",
-    embed: "https://open.spotify.com/embed/track/35MslOR9Mkkj17dlqL38bg",
+    title: "Vidrado em Você",
+    artist: "Dj Guuga e Mc Livinho",
+    embed: "https://open.spotify.com/embed/track/1HJU78CRk4vxvjE5Cs1BCt",
     mode: "brazil"
   },
   {
