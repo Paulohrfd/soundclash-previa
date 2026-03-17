@@ -10,6 +10,126 @@ const tracks = [
   mode: "international"
 },
   {
+  title: "It Was A Good Day",
+  artist: "Ice Cube",
+  embed: "https://open.spotify.com/embed/track/2qOm7ukLyHUXWyR4ZWLwxA",
+  mode: "international"
+},
+{
+  title: "You Know How We Do It",
+  artist: "Ice Cube",
+  embed: "https://open.spotify.com/embed/track/67ncYmW29pNJJY2yXuLPwT",
+  mode: "international"
+},
+{
+  title: "Life Is Good",
+  artist: "Future e Drake",
+  embed: "https://open.spotify.com/embed/track/5yY9lUy8nbvjM1Uyo1Uqoc",
+  mode: "international"
+},
+{
+  title: "Cold",
+  artist: "Nemzzz",
+  embed: "https://open.spotify.com/embed/track/7cwWqQLzXpkalO7EPINC0H",
+  mode: "international"
+},
+{
+  title: "All My Life",
+  artist: "Lil Durk e J. Cole",
+  embed: "https://open.spotify.com/embed/track/6HgWWaMu31KdOpEG5l28BG",
+  mode: "international"
+},
+{
+  title: "MY EYES",
+  artist: "Travis Scott",
+  embed: "https://open.spotify.com/embed/track/4kjI1gwQZRKNDkw1nI475M",
+  mode: "international"
+},
+{
+  title: "Many Men (Wish Death)",
+  artist: "50 Cent",
+  embed: "https://open.spotify.com/embed/track/5STdMlrBf6pqWiNE7WqxSi",
+  mode: "international"
+},
+{
+  title: "Shotta Flow",
+  artist: "NLE Choppa, Blueface",
+  embed: "https://open.spotify.com/embed/track/0dMmAvh8LRm7GTXht4bMlP",
+  mode: "international"
+},
+{
+  title: "Superman",
+  artist: "Eminem",
+  embed: "https://open.spotify.com/embed/track/4woTEX1wYOTGDqNXuavlRC",
+  mode: "international"
+},
+{
+  title: "Hotline Bling",
+  artist: "Drake",
+  embed: "https://open.spotify.com/embed/track/6nmz4imkDcmtwMjocAzFSx",
+  mode: "international"
+},
+{
+  title: "21 Questions",
+  artist: "50 Cent e Nate Dogg",
+  embed: "https://open.spotify.com/embed/track/70FCugJxa7XW04Np6iYJdI",
+  mode: "international"
+},
+{
+  title: "No Role Modelz",
+  artist: "J. Cole",
+  embed: "https://open.spotify.com/embed/track/68Dni7IE4VyPkTOH9mRWHr",
+  mode: "international"
+},
+{
+  title: "XO TOUR Llif3",
+  artist: "Lil Uzi Vert",
+  embed: "https://open.spotify.com/embed/track/7GX5flRQZVHRAGd6B4TmDO",
+  mode: "international"
+},
+{
+  title: "HUMBLE.",
+  artist: "Kendrick Lamar",
+  embed: "https://open.spotify.com/embed/track/7KXjTSCq5nL1LoYtL7XAwS",
+  mode: "international"
+},
+{
+  title: "Love Me",
+  artist: "Lil Wayne, Drake e Future",
+  embed: "https://open.spotify.com/embed/track/28sawWzfucjbahooUtyrZx",
+  mode: "international"
+},
+{
+  title: "Swimming Pools (Drank)",
+  artist: "Kendrick Lamar",
+  embed: "https://open.spotify.com/embed/track/6REbwUNlppTfcnV4d4ZoZi",
+  mode: "international"
+},
+{
+  title: "Dreamers",
+  artist: "Savoir Adore",
+  embed: "https://open.spotify.com/embed/track/2BZfNi8kEhMY4jVkCRe2IM",
+  mode: "international"
+},
+{
+  title: "Honey",
+  artist: "J-Killz The Prince",
+  embed: "https://open.spotify.com/embed/track/0jw1CqdedlsLRIESZolO8B",
+  mode: "international"
+},
+{
+  title: "Espresso",
+  artist: "Sabrina Carpenter",
+  embed: "https://open.spotify.com/embed/track/2qSkIjg1o9h3YT9RAgYN75",
+  mode: "international"
+},
+{
+  title: "Be My Baby",
+  artist: "The Ronettes",
+  embed: "https://open.spotify.com/embed/track/2G2YzndIA6jeWFPBXhUjh5",
+  mode: "international"
+},
+  {
   title: "Evidências",
   artist: "Chitãozinho & Xororó",
   embed: "https://open.spotify.com/embed/track/1X95pCQG939KCbJL6yVQgw",
