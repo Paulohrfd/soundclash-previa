@@ -10,6 +10,294 @@ const tracks = [
   mode: "international"
 },
   {
+  title: "Evidências",
+  artist: "Chitãozinho & Xororó",
+  embed: "https://open.spotify.com/embed/track/1X95pCQG939KCbJL6yVQgw",
+  mode: "brazil"
+},
+{
+  title: "Cheia de Manias",
+  artist: "Raça Negra",
+  embed: "https://open.spotify.com/embed/track/1wtLEFD3kYHydIrPoB1TPj",
+  mode: "brazil"
+},
+{
+  title: "Mina do Condomínio",
+  artist: "Seu Jorge",
+  embed: "https://open.spotify.com/embed/track/3QA7VF91ehKfoYEDa5wcJb",
+  mode: "brazil"
+},
+{
+  title: "Burguesinha",
+  artist: "Seu Jorge",
+  embed: "https://open.spotify.com/embed/track/35Wfw6eyw39YpOp2lRH11c",
+  mode: "brazil"
+},
+{
+  title: "Do Seu Lado",
+  artist: "Jota Quest",
+  embed: "https://open.spotify.com/embed/track/30Q8BodSWrBwQifVwh2caQ",
+  mode: "brazil"
+},
+{
+  title: "Fácil",
+  artist: "Jota Quest",
+  embed: "https://open.spotify.com/embed/track/5rhijzoJmc7ZdnEgBS58Wh",
+  mode: "brazil"
+},
+{
+  title: "Dias Atrás",
+  artist: "CPM 22",
+  embed: "https://open.spotify.com/embed/track/7hjAhjnMzpMT9vU54w0LYF",
+  mode: "brazil"
+},
+{
+  title: "Natasha",
+  artist: "Capital Inicial",
+  embed: "https://open.spotify.com/embed/track/7KdRrzenHoirvrvp6KHZxh",
+  mode: "brazil"
+},
+{
+  title: "Primeiros Erros",
+  artist: "Capital Inicial",
+  embed: "https://open.spotify.com/embed/track/4oZr3pfUrZtjJzxr0UIPb9",
+  mode: "brazil"
+},
+{
+  title: "Pais e Filhos",
+  artist: "Legião Urbana",
+  embed: "https://open.spotify.com/embed/track/46s6p0tsgRBfzWriIg3w9o",
+  mode: "brazil"
+},
+{
+  title: "Que País É Este",
+  artist: "Legião Urbana",
+  embed: "https://open.spotify.com/embed/track/1bqRtNOcT1QiV1j87IoATA",
+  mode: "brazil"
+},
+{
+  title: "Lanterna dos Afogados",
+  artist: "Os Paralamas do Sucesso",
+  embed: "https://open.spotify.com/embed/track/3uezVXXzZZUCjqPRC9JA6u",
+  mode: "brazil"
+},
+{
+  title: "Meu Erro",
+  artist: "Os Paralamas do Sucesso",
+  embed: "https://open.spotify.com/embed/track/7pn5QXr2LTeGsgHyCaJxDo",
+  mode: "brazil"
+},
+{
+  title: "Que Nem Maré",
+  artist: "Jorge Vercillo",
+  embed: "https://open.spotify.com/embed/track/5F4SvW0GTQVlTUMstJEOyG",
+  mode: "brazil"
+},
+{
+  title: "Monalisa",
+  artist: "Jorge Vercillo",
+  embed: "https://open.spotify.com/embed/track/35lcN4HxxsiwIq6ILSKVSh",
+  mode: "brazil"
+},
+{
+  title: "Amor I Love You",
+  artist: "Marisa Monte",
+  embed: "https://open.spotify.com/embed/track/5nwT95l5rMdQPaydjGh32q",
+  mode: "brazil"
+},
+{
+  title: "Ainda Bem",
+  artist: "Marisa Monte",
+  embed: "https://open.spotify.com/embed/track/43BCxznTSBLcXzu4lJ8KW5",
+  mode: "brazil"
+},
+{
+  title: "Velha Infância",
+  artist: "Tribalistas",
+  embed: "https://open.spotify.com/embed/track/1mSxbLW7fKABfeY4lGpg0E",
+  mode: "brazil"
+},
+{
+  title: "Já Sei Namorar",
+  artist: "Tribalistas",
+  embed: "https://open.spotify.com/embed/track/352FuGmGJClPjojSYjNrXG",
+  mode: "brazil"
+},
+{
+  title: "Olhos Coloridos",
+  artist: "Sandra de Sá",
+  embed: "https://open.spotify.com/embed/track/45XopGhwYSgooiewaZNsSd",
+  mode: "brazil"
+},
+{
+  title: "Não Deixe o Samba Morrer",
+  artist: "Alcione",
+  embed: "https://open.spotify.com/embed/track/5iq4NDi4fznJJRLL1rXNE4",
+  mode: "brazil"
+},
+{
+  title: "Você Me Vira a Cabeça",
+  artist: "Alcione",
+  embed: "https://open.spotify.com/embed/track/4RGRfGjhTxsCkLaHFF90Bq",
+  mode: "brazil"
+},
+{
+  title: "Meu Ébano",
+  artist: "Alcione",
+  embed: "https://open.spotify.com/embed/track/0nmEuK27DMGbYmSdh6NtKB",
+  mode: "brazil"
+},
+{
+  title: "Não Existe Amor em SP",
+  artist: "Criolo",
+  embed: "https://open.spotify.com/embed/track/0rnFlWFOfTRmVQVm28DK09",
+  mode: "brazil"
+},
+{
+  title: "Subirusdoistiozin",
+  artist: "Criolo",
+  embed: "https://open.spotify.com/embed/track/71afMnTecSlbLgUMn71WJm",
+  mode: "brazil"
+},
+{
+  title: "Boa Esperança",
+  artist: "Emicida",
+  embed: "https://open.spotify.com/embed/track/2v3FdNAsIe9rh62DOb4ZIz",
+  mode: "brazil"
+},
+{
+  title: "Levanta e Anda",
+  artist: "Emicida e Rael",
+  embed: "https://open.spotify.com/embed/track/0JSux25Te5HYMSr2D64d02",
+  mode: "brazil"
+},
+{
+  title: "Hoje Cedo",
+  artist: "Emicida e Pitty",
+  embed: "https://open.spotify.com/embed/track/2C9LPYpH9YUgROQDHfRXrU",
+  mode: "brazil"
+},
+{
+  title: "Mundo de Ilusões",
+  artist: "Maneva",
+  embed: "https://open.spotify.com/embed/track/75qBK3SkWqKHym9PxHgD53",
+  mode: "brazil"
+},
+{
+  title: "Pisando Descalço",
+  artist: "Maneva",
+  embed: "https://open.spotify.com/embed/track/4wsQ8QosIoFCIeLuGUPtDW",
+  mode: "brazil"
+},
+{
+  title: "SET DJ YURI PEDRADA - TRAVA CHIP",
+  artist: "DJ Yuri Pedrada, MC Meno K, MC GDL, MC Jvila, Nilo, Mc Negao Original, MC Paiva, MC Livinho, Mc Ryan SP",
+  embed: "https://open.spotify.com/embed/track/65O1EyYSg0Leyf0li6Vzah",
+  mode: "brazil"
+},
+{
+  title: "Desenho de Deus",
+  artist: "Armandinho",
+  embed: "https://open.spotify.com/embed/track/4G17iavwP0xVguOKlwzL0f",
+  mode: "brazil"
+},
+{
+  title: "Coração Radiante",
+  artist: "Grupo Revelação",
+  embed: "https://open.spotify.com/embed/track/1PWpeF2KQQzBjqkJPMqvpJ",
+  mode: "brazil"
+},
+{
+  title: "Tá Escrito",
+  artist: "Grupo Revelação",
+  embed: "https://open.spotify.com/embed/track/0rOQyLZJ9oASgtdoDZgrmK",
+  mode: "brazil"
+},
+{
+  title: "Deixa Acontecer",
+  artist: "Grupo Revelação",
+  embed: "https://open.spotify.com/embed/track/50mawjudhEofTcUIpRmGXr",
+  mode: "brazil"
+},
+{
+  title: "Diga Sim pra Mim",
+  artist: "Desejo de Menina",
+  embed: "https://open.spotify.com/embed/track/74QtGMeYncf3wP6fhg00zb",
+  mode: "brazil"
+},
+{
+  title: "Mágica",
+  artist: "Calcinha Preta",
+  embed: "https://open.spotify.com/embed/track/7AaW6x9Ld7c9JqBuyw6vzB",
+  mode: "brazil"
+},
+{
+  title: "Praieiro",
+  artist: "Jammil e Uma Noites",
+  embed: "https://open.spotify.com/embed/track/20ochCcJRvg7DeruwxvwN4",
+  mode: "brazil"
+},
+{
+  title: "Colorir Papel",
+  artist: "Jammil e Uma Noites",
+  embed: "https://open.spotify.com/embed/track/2Q2fW2yb1bc2UEfkiLQnnh",
+  mode: "brazil"
+},
+{
+  title: "Lucidez",
+  artist: "Fundo de Quintal",
+  embed: "https://open.spotify.com/embed/track/4QifTadpQAdY4039WuojvG",
+  mode: "brazil"
+},
+{
+  title: "Ainda Gosto de Você",
+  artist: "Sorriso Maroto",
+  embed: "https://open.spotify.com/embed/track/6SNYpGHWqeB6IJ2Fm7KmvY",
+  mode: "brazil"
+},
+{
+  title: "Futuro Prometido",
+  artist: "Sorriso Maroto",
+  embed: "https://open.spotify.com/embed/track/1Cn42z1q8r9hGECUFHBzQo",
+  mode: "brazil"
+},
+{
+  title: "Assim Você Mata o Papai",
+  artist: "Sorriso Maroto",
+  embed: "https://open.spotify.com/embed/track/03UlQzmQHLb3fnvfhipq0B",
+  mode: "brazil"
+}, 
+{
+  title: "Trem Bala",
+  artist: "Ana Vilela",
+  embed: "https://open.spotify.com/embed/track/05QeyKGAn4TZrv41tMiD1A",
+  mode: "brazil"
+},
+{
+  title: "Você Partiu Meu Coração",
+  artist: "Nego do Borel, Wesley Safadão e Anitta",
+  embed: "https://open.spotify.com/embed/track/0u8aj0c4IxeVSLTUuuq9V5",
+  mode: "brazil"
+},
+{
+  title: "Olha a Explosão",
+  artist: "MC Kevinho",
+  embed: "https://open.spotify.com/embed/track/6Q4foUefrAyCt8VxJFML56",
+  mode: "brazil"
+},
+{
+  title: "Bum Bum Tam Tam",
+  artist: "MC Fioti",
+  embed: "https://open.spotify.com/embed/track/7KBfjlQ85Fqs2MCCvXSW0c",
+  mode: "brazil"
+},
+{
+  title: "Tudo OK",
+  artist: "Thiaguinho MT e Mila",
+  embed: "https://open.spotify.com/embed/track/4HUZBG98TYbxSR9V1V2DWS",
+  mode: "brazil"
+},
+  {
   title: "Blinding Lights",
   artist: "The Weeknd",
   embed: "https://open.spotify.com/embed/track/0VjIjW4GlUZAMYd2vXMi3b",
