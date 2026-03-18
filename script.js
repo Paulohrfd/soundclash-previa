@@ -8,7 +8,248 @@ const tracks = [
   artist: "B2K e P. Diddy",
   embed: "https://open.spotify.com/embed/track/75lRRdjplzfpmBjNzMPyjR",
   mode: "international"
-},{
+},
+{
+  title: "Doja",
+  artist: "Central Cee",
+  embed: "https://open.spotify.com/embed/track/3LtpKP5abr2qqjunvjlX5i",
+  mode: "international"
+},
+{
+  title: "RITMO",
+  artist: "J Balvin e Black Eyed Peas",
+  embed: "https://open.spotify.com/embed/track/6cy3ki60hLwimwIje7tALf",
+  mode: "international"
+},
+{
+  title: "No Pole",
+  artist: "Don Toliver",
+  embed: "https://open.spotify.com/embed/track/0eaVIYo2zeOaGJeqZ5TwYz",
+  mode: "international"
+},
+{
+  title: "X",
+  artist: "Nicky Jam e J Balvin",
+  embed: "https://open.spotify.com/embed/track/5YUyW9opqNsMSEzzecZih1",
+  mode: "international"
+},
+{
+  title: "Fuck Love",
+  artist: "XXXTENTACION e Trippie Redd",
+  embed: "https://open.spotify.com/embed/track/7AQim7LbvFVZJE3O8TYgf2",
+  mode: "international"
+},
+{
+  title: "Mood",
+  artist: "24kGoldn",
+  embed: "https://open.spotify.com/embed/track/3tjFYV6RSFtuktYl3ZtYcq",
+  mode: "international"
+},
+{
+  title: "No Idea",
+  artist: "Don Toliver",
+  embed: "https://open.spotify.com/embed/track/7AzlLxHn24DxjgQX73F9fU",
+  mode: "international"
+},
+{
+  title: "MILLION DOLLAR BABY",
+  artist: "Tommy Richman",
+  embed: "https://open.spotify.com/embed/track/5AJ9hqTS2wcFQCELCFRO7A",
+  mode: "international"
+},
+{
+  title: "Falling",
+  artist: "Trevor Daniel",
+  embed: "https://open.spotify.com/embed/track/4TnjEaWOeW0eKTKIEvJyCa",
+  mode: "international"
+},
+{
+  title: "Lonely",
+  artist: "Akon",
+  embed: "https://open.spotify.com/embed/track/4v7DCN09hgXkKazefkznDQ",
+  mode: "international"
+},
+{
+  title: "BAND4BAND",
+  artist: "Central Cee e Lil Baby",
+  embed: "https://open.spotify.com/embed/track/7iabz12vAuVQYyekFIWJxD",
+  mode: "international"
+},
+{
+  title: "Confident",
+  artist: "Justin Bieber",
+  embed: "https://open.spotify.com/embed/track/3JsydWaf2Ev4ehaLUjj3SY",
+  mode: "international"
+},
+{
+  title: "Just Wanna Rock",
+  artist: "Lil Uzi Vert",
+  embed: "https://open.spotify.com/embed/track/4FyesJzVpA39hbYvcseO2d",
+  mode: "international"
+},
+{
+  title: "hope",
+  artist: "XXXTENTACION",
+  embed: "https://open.spotify.com/embed/track/2ZRo7axmMPeSVUvDbGkJah",
+  mode: "international"
+},
+{
+  title: "Welcome To Jamrock",
+  artist: "Damian Marley",
+  embed: "https://open.spotify.com/embed/track/22AbXxQbMdVqEz7xJjhccG",
+  mode: "international"
+},
+{
+  title: "Three Little Birds",
+  artist: "Bob Marley",
+  embed: "https://open.spotify.com/embed/track/7vggqxNKwd6xdRoYS0pQtM",
+  mode: "international"
+},
+{
+  title: "Suicidal",
+  artist: "YNW Melly",
+  embed: "https://open.spotify.com/embed/track/1iSqfoUFnQwV0QW1EfUit8",
+  mode: "international"
+},
+{
+  title: "Forever Young",
+  artist: "Alphaville",
+  embed: "https://open.spotify.com/embed/track/4S1VYqwfkLit9mKVY3MXoo",
+  mode: "international"
+},
+{
+  title: "Everybody Wants To Rule The World",
+  artist: "Tears For Fears",
+  embed: "https://open.spotify.com/embed/track/4RvWPyQ5RL0ao9LPZeSouE",
+  mode: "international"
+},
+{
+  title: "Girls Just Want To Have Fun",
+  artist: "Cyndi Lauper",
+  embed: "https://open.spotify.com/embed/track/4y1LsJpmMti1PfRQV9AWWe",
+  mode: "international"
+},
+{
+  title: "Runaway Baby",
+  artist: "Bruno Mars",
+  embed: "https://open.spotify.com/embed/track/7hCNBVRhHzcsRAv0TQnOzq",
+  mode: "international"
+},
+{
+  title: "Praise The Lord",
+  artist: "A$AP Rocky",
+  embed: "https://open.spotify.com/embed/track/7ycWLEP1GsNjVvcjawXz3z",
+  mode: "international"
+},
+{
+  title: "Wake Up in the Sky",
+  artist: "Gucci Mane, Bruno Mars e Kodak Black",
+  embed: "https://open.spotify.com/embed/track/0QIjsbm2fh1cJ45XO9eGqq",
+  mode: "international"
+},
+{
+  title: "MONTERO",
+  artist: "Lil Nas X",
+  embed: "https://open.spotify.com/embed/track/67BtfxlNbhBmCDR2L2l8qd",
+  mode: "international"
+},
+{
+  title: "Shake It Off",
+  artist: "Taylor Swift",
+  embed: "https://open.spotify.com/embed/track/5xTtaWoae3wi06K5WfVUUH",
+  mode: "international"
+},
+{
+  title: "They Don't Care About Us",
+  artist: "Michael Jackson",
+  embed: "https://open.spotify.com/embed/track/3wuCCNCnBhJlwkIJTBZFiv",
+  mode: "international"
+},
+{
+  title: "Big Poppa",
+  artist: "The Notorious B.I.G.",
+  embed: "https://open.spotify.com/embed/track/63BcfK6YAzJYeISaTPr6IO",
+  mode: "international"
+},
+{
+  title: "Sound of da Police",
+  artist: "KRS-One",
+  embed: "https://open.spotify.com/embed/track/3Y6XWs8xMlCngyIxNOFnsp",
+  mode: "international"
+},
+{
+  title: "Bandoleros",
+  artist: "Don Omar",
+  embed: "https://open.spotify.com/embed/track/4BxzNZpcm1j3JczZzGNe2k",
+  mode: "international"
+},
+{
+  title: "Yo Voy",
+  artist: "Zion y Lennox",
+  embed: "https://open.spotify.com/embed/track/5gflgO9EPbIBf16n5TKnQS",
+  mode: "international"
+},
+{
+  title: "Rap da Felicidade",
+  artist: "Cidinho & Doca",
+  embed: "https://open.spotify.com/embed/track/5SM9jV7MTsXx4gKAxHhfuh",
+  mode: "brazil"
+},
+{
+  title: "Tapinha",
+  artist: "Furacão 2000",
+  embed: "https://open.spotify.com/embed/track/7psBW0LJRYEDestSInNDEL",
+  mode: "brazil"
+},
+{
+  title: "Fico Assim Sem Você",
+  artist: "Claudinho & Buchecha",
+  embed: "https://open.spotify.com/embed/track/1L3XZAKODPVuBgeJQpJHLM",
+  mode: "brazil"
+},
+{
+  title: "Novo Balanço",
+  artist: "Veigh",
+  embed: "https://open.spotify.com/embed/track/4hKLzFvNwHF6dPosGT30ed",
+  mode: "brazil"
+},
+{
+  title: "X1",
+  artist: "Dallass e MC Cabelinho",
+  embed: "https://open.spotify.com/embed/track/0dcHD9QhnWRA41zoLnC83X",
+  mode: "brazil"
+},
+{
+  title: "Castlevania",
+  artist: "Matuê",
+  embed: "https://open.spotify.com/embed/track/3Kh5a6vXMiJtC35jMEfmyy",
+  mode: "brazil"
+},
+{
+  title: "777-666",
+  artist: "Matuê",
+  embed: "https://open.spotify.com/embed/track/3sGcETRMuAgcPgjDpIkgMn",
+  mode: "brazil"
+},
+{
+  title: "Não Temos Medo",
+  artist: "Tz da Coronel",
+  embed: "https://open.spotify.com/embed/track/5rRlZJz8A17nqeKLdjDvsx",
+  mode: "brazil"
+},
+{
+  title: "Quando Te Encontrei",
+  artist: "Raça Negra",
+  embed: "https://open.spotify.com/embed/track/1vfx47fbk60K3ojvmXaI47",
+  mode: "brazil"
+},
+{
+  title: "WTF",
+  artist: "021 Richard",
+  embed: "https://open.spotify.com/embed/track/06JTWClNJgcBxk2yMqoz7e",
+  mode: "brazil"
+},
+{
   title: "Without Me",
   artist: "Eminem",
   embed: "https://open.spotify.com/embed/track/7lQ8MOhq6IN2w8EYcFNSUk",
