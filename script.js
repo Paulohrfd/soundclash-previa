@@ -396,7 +396,7 @@ const tracks = [
 {
   title: "Butterfly Effect",
   artist: "Travis Scott",
-  embed: "https://open.spotify.com/embed/track/51rXHuKN8Loc4sUlKPODgH",
+  embed: "https://open.spotify.com/embed/track/1yxgsra98r3qAtxqiGZPiX",
   mode: "international"
 },
 {
