@@ -3,6 +3,264 @@ const TOURNAMENT_PROGRESS_KEY = "soundclash_tournament_progress_v1";
 let currentMode = "general";
 
 const tracks = [
+    {
+  title: "Manchete dos Jornais",
+  artist: "Calcinha Preta",
+  embed: "https://open.spotify.com/embed/track/1yNstWFOG0z4CFkJrusyzP",
+  mode: "brazil"
+  },
+    {
+  title: "Mustang Preto",
+  artist: "Teto",
+  embed: "https://open.spotify.com/embed/track/6Vgn3IEUkWs3d6og029Gtm",
+  mode: "brazil"
+  },
+  {
+  title: "Wonderful (part. R. Kelly e Ashanti)",
+  artist: "Ja Rule",
+  embed: "https://open.spotify.com/embed/track/1bl99Q4umnPomYGv3dQP67",
+  mode: "international"
+},
+  {
+  title: "Can't Tell Me Nothing",
+  artist: "Kanye West",
+  embed: "https://open.spotify.com/embed/track/0mEdbdeRFQwBhN4xfyIeUM",
+  mode: "international"
+},
+  {
+  title: "Happy Nation",
+  artist: "Ace of Base",
+  embed: "https://open.spotify.com/embed/track/7yCF65vpc7sUwPjftI0iFb",
+  mode: "international"
+},
+  {
+  title: "Freed From Desire",
+  artist: "Gala, Molella e Phil Jay",
+  embed: "https://open.spotify.com/embed/track/3u5N55tHf7hXATSQrjBh2q",
+  mode: "international"
+},
+  {
+  title: "Pass The Dutchie",
+  artist: "Musical Youth",
+  embed: "https://open.spotify.com/embed/track/1BkY0N8ChFk2mdLbAUu8ZK",
+  mode: "international"
+},
+  {
+  title: "WE ON GO",
+  artist: "BIA",
+  embed: "https://open.spotify.com/embed/track/01vCzM84c5JLSkG2iXC9VZ",
+  mode: "international"
+  },
+    {
+  title: "Ficar Por Ficar",
+  artist: "Forró da Brucelose & Gilson Neto",
+  embed: "https://open.spotify.com/embed/track/47N8LdgG7I4H0sCSGtrKlP",
+  mode: "brazil"
+  },
+    {
+  title: "Favela Sinistra",
+  artist: "Trilha Sonora do Gueto",
+  embed: "https://open.spotify.com/embed/track/4eEcQVvVsbzxhmkCy58hGL",
+  mode: "brazil"
+  },
+    {
+  title: "Desabafo / Deixa Eu Dizer",
+  artist: "Marcelo D2 e Claudya",
+  embed: "https://open.spotify.com/embed/track/5GCz9BOkt17aI6ZOR3EiUl",
+  mode: "brazil"
+  },
+    {
+  title: "Aulas e Cursos",
+  artist: "DNASTY",
+  embed: "https://open.spotify.com/embed/track/2ABBlgwXo68orcunvBYYiY",
+  mode: "brazil"
+  },
+    {
+  title: "Dois Amores, Duas Paixões",
+  artist: "Calcinha Preta",
+  embed: "https://open.spotify.com/embed/track/5P8INbk864e7LllQ1HxgSn",
+  mode: "brazil"
+  },
+    {
+  title: "Me Usa",
+  artist: "Banda Magníficos",
+  embed: "https://open.spotify.com/embed/track/4dUpm0QuR6MCIG5rN7XTI9",
+  mode: "brazil"
+  },
+    {
+  title: "Sonho de Amor",
+  artist: "Banda Aveloz",
+  embed: "https://open.spotify.com/embed/track/57ZvPy2mFyyWmQnzW1IMPa",
+  mode: "brazil"
+  },
+    {
+  title: "Destruiu Nosso Amor",
+  artist: "Conde do Forró",
+  embed: "https://open.spotify.com/embed/track/2bdlkaQUx3aTJS4y9dvrsL",
+  mode: "brazil"
+  },
+    {
+  title: "Meu Grande Amor (You are my life)",
+  artist: "Forrozão Baby Som",
+  embed: "https://open.spotify.com/embed/track/5aKyfWYq2pzd8JkEBeyFoc",
+  mode: "brazil"
+  },
+    {
+  title: "Lábios Divididos",
+  artist: "Moleca 100 Vergonha",
+  embed: "https://open.spotify.com/embed/track/1nvDNQ2ZupfKmCDTfdQwnm",
+  mode: "brazil"
+  },
+    {
+  title: "Ficar Por Ficar",
+  artist: "Forró da Brucelose & Gilson Neto",
+  embed: "https://open.spotify.com/embed/track/47N8LdgG7I4H0sCSGtrKlP",
+  mode: "brazil"
+  },
+  {
+  title: "Ficar Por Ficar",
+  artist: "Forró da Brucelose & Gilson Neto",
+  embed: "https://open.spotify.com/embed/track/47N8LdgG7I4H0sCSGtrKlP",
+  mode: "brazil"
+  },
+  {
+  title: "redrum",
+  artist: "21 Savage",
+  embed: "https://open.spotify.com/embed/track/52eIcoLUM25zbQupAZYoFh",
+  mode: "international"
+  },
+  {
+  title: "Hey, Soul Sister",
+  artist: "Train",
+  embed: "https://open.spotify.com/embed/track/4HlFJV71xXKIGcU3kRyttv",
+  mode: "international"
+  },
+  {
+  title: "Praise Jah In The Moonlight (Radio Edit)",
+  artist: "YG Marley",
+  embed: "https://open.spotify.com/embed/track/3h5TiWTqGxjSjFrbruPFH9",
+  mode: "international"
+  },
+  {
+  title: "Tokyo Drift (Fast & Furious) (From The Fast And The Furious: Tokyo Drift Soundtrack)",
+  artist: "Teriyaki Boyz",
+  embed: "https://open.spotify.com/embed/track/0upFohXrGxIIAjyaJmCkMU",
+  mode: "international"
+  },
+  {
+  title: "Sexy Bitch (part. Akon)",
+  artist: "David Guetta",
+  embed: "https://open.spotify.com/embed/track/2dGxjfhFXDIUX9h5ImyKkE",
+  mode: "international"
+  },
+  {
+  title: "A Sky Full of Stars",
+  artist: "Coldplay",
+  embed: "https://open.spotify.com/embed/track/0FDzzruyVECATHXKHFs9eJ",
+  mode: "international"
+  },
+  {
+  title: "Waiting For Love",
+  artist: "Avicii",
+  embed: "https://open.spotify.com/embed/track/2P4OICZRVAQcYAV2JReRfj",
+  mode: "international"
+  },
+  {
+  title: "Don't Worry (with Ray Dalton) [Radio Edit] (part. Ray Dalton)",
+  artist: "Madcon",
+  embed: "https://open.spotify.com/embed/track/63CSozvYUEudPp12679UVF",
+  mode: "international"
+  },
+  {
+  title: "Candy Shop (part. Olivia)",
+  artist: "50 Cent",
+  embed: "https://open.spotify.com/embed/track/5D2mYZuzcgjpchVY1pmTPh",
+  mode: "international"
+  },
+  {
+  title: "One More Night",
+  artist: "Maroon 5",
+  embed: "https://open.spotify.com/embed/track/6cpk00i5TxCqSeqNi2HuIe",
+  mode: "international"
+  },
+  {
+  title: "Adventure of a Lifetime",
+  artist: "Coldplay",
+  embed: "https://open.spotify.com/embed/track/69uxyAqqPIsUyTO8txoP2M",
+  mode: "international"
+  },
+  {
+  title: "Ooh Ahh (My Life Be Like) (part. TobyMac)",
+  artist: "Grits",
+  embed: "https://open.spotify.com/embed/track/1KBN9lYx9QkfUJC3NSXlhQ",
+  mode: "international"
+  },
+  {
+  title: "Bang Bang (part. Adam Levine)",
+  artist: "K'NAAN",
+  embed: "https://open.spotify.com/embed/track/61YzdCCBPM5Pc7lIiD5i8C",
+  mode: "international"
+  },
+  {
+  title: "Safe and Sound",
+  artist: "Capital Cities",
+  embed: "https://open.spotify.com/embed/track/5JVbvCHX10U2pLa5DEqGav",
+  mode: "international"
+  },
+  {
+  title: "Fireball (part. John Ryan)",
+  artist: "Pitbull",
+  embed: "https://open.spotify.com/embed/track/49eplIHvgCLY8HAgcaWrUb",
+  mode: "international"
+  },
+  {
+  title: "Can't Hold Us (part. Ray Dalton)",
+  artist: "Macklemore & Ryan Lewis",
+  embed: "https://open.spotify.com/embed/track/3bidbhpOYeV4knp8AIu8Xn",
+  mode: "international"
+  },
+  {
+  title: "In Da Club",
+  artist: "50 Cent",
+  embed: "https://open.spotify.com/embed/track/7iL6o9tox1zgHpKUfh9vuC",
+  mode: "international"
+  },
+  {
+  title: "Just A Lil Bit",
+  artist: "50 Cent",
+  embed: "https://open.spotify.com/embed/track/4nva9EpKntUTs6CRSGBCn9",
+  mode: "international"
+  },
+  {
+  title: "Money Trees (part. Jay Rock)",
+  artist: "Kendrick Lamar",
+  embed: "https://open.spotify.com/embed/track/74tLlkN3rgVzRqQJgPfink",
+  mode: "international"
+  },
+  {
+  title: "Mo Bamba",
+  artist: "Sheck Wes",
+  embed: "https://open.spotify.com/embed/track/1xzBco0xcoJEDXktl7Jxrr",
+  mode: "international"
+  },
+  {
+  title: "Sprinter",
+  artist: "Dave e Central Cee",
+  embed: "https://open.spotify.com/embed/track/6NYbDTmstd7JSUWl2hVBqR",
+  mode: "international"
+  },
+  {
+  title: "After Party",
+  artist: "Don Toliver",
+  embed: "https://open.spotify.com/embed/track/527k23H0A4Q0UJN3vGs0Da",
+  mode: "international"
+  },
+  {
+  title: "National Treasure",
+  artist: "Drake",
+  embed: "https://open.spotify.com/embed/track/393OFJFZKIIv66JmJcNm9D",
+  mode: "international"
+  },
   {
   title: "Bump, Bump, Bump",
   artist: "B2K e P. Diddy",
