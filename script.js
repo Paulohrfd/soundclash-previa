@@ -3,6 +3,72 @@ const TOURNAMENT_PROGRESS_KEY = "soundclash_tournament_progress_v1";
 let currentMode = "general";
 
 const tracks = [
+      {
+  title: "Hello",
+  artist: "X1",
+  embed: "https://open.spotify.com/embed/track/5tMTwvk6b9Q2XIuTZaUnjC",
+  mode: "brazil"
+  },
+      {
+  title: "Aonde Eu Sou Cria",
+  artist: "NGC Daddy, Mainstreet e Borges",
+  embed: "https://open.spotify.com/embed/track/7M7oYTGSDkD1jfv33yWtR0",
+  mode: "brazil"
+  },
+    {
+  title: "Ms. Jackson",
+  artist: "Outkast",
+  embed: "https://open.spotify.com/embed/track/0I3q5fE6wg7LIfHGngUTnV",
+  mode: "international"
+},
+      {
+  title: "Gangstar (Remix) (part. Chefin, Elow e Salvador da Rima)",
+  artist: "Oruam, Meno Tody, Real Fuba e Caio Luccas",
+  embed: "https://open.spotify.com/embed/track/6CKlopcXsFc7maferE2Y4M",
+  mode: "brazil"
+  },
+      {
+  title: "1993",
+  artist: "Matuê",
+  embed: "https://open.spotify.com/embed/track/5ZurZfrvejOpZid1IB4Ogk",
+  mode: "brazil"
+  },
+    {
+  title: "Real Big",
+  artist: "Mannie Fresh",
+  embed: "https://open.spotify.com/embed/track/47FjToieQbxqNnuiRRQtym",
+  mode: "international"
+},
+    {
+  title: "Crank That (Soulja Boy)",
+  artist: "Soulja Boy Tell'em",
+  embed: "https://open.spotify.com/embed/track/66TRwr5uJwPt15mfFkzhbi",
+  mode: "international"
+},
+    {
+  title: "Act A Fool",
+  artist: "Ludacris",
+  embed: "https://open.spotify.com/embed/track/28mv40MzspRZn0PBcO2itT",
+  mode: "international"
+},
+    {
+  title: "Six Days (Remix) (part. Mos Def)",
+  artist: "DJ Shadow",
+  embed: "https://open.spotify.com/embed/track/6ifNuuYjiS5NdMabN4Jvrs",
+  mode: "international"
+},
+      {
+  title: "Resenha do Arrocha",
+  artist: "J. Eskine e Alef Donk",
+  embed: "https://open.spotify.com/embed/track/0NQyryTVbjGMtWMA1eSqIn",
+  mode: "brazil"
+  },
+      {
+  title: "Mãe Solteira (part. MC G15)",
+  artist: "DG e Batidão Stronda, j.eskine e MC Davi",
+  embed: "https://open.spotify.com/embed/track/4Hk1gmBr2KVEXr3hHwSgUi",
+  mode: "brazil"
+  },
     {
   title: "Manchete dos Jornais",
   artist: "Calcinha Preta",
