@@ -4,6 +4,120 @@ let currentMode = "general";
 
 const tracks = [
       {
+  title: "Hot (Remix) (part. Gunna e Travis Scott)",
+  artist: "Young Thug",
+  embed: "https://open.spotify.com/embed/track/4ea9w8c4ROqiZpJVhfBA3m",
+  mode: "international"
+},
+      {
+  title: "Best Day of My Life (Glee Cast Version)",
+  artist: "Glee Cast",
+  embed: "https://open.spotify.com/embed/track/0kfbqvZoYmZkJpWNChuVRi",
+  mode: "international"
+},
+      {
+  title: "I Wonder",
+  artist: "Kanye West",
+  embed: "https://open.spotify.com/embed/track/7rbECVPkY5UODxoOUVKZnA",
+  mode: "international"
+},
+      {
+  title: "The Night We Met",
+  artist: "Lord Huron",
+  embed: "https://open.spotify.com/embed/track/5yJaXWIErrrsjQ3J0eR5aK",
+  mode: "international"
+},
+      {
+  title: "End of Beginning",
+  artist: "Djo",
+  embed: "https://open.spotify.com/embed/track/3qhlB30KknSejmIvZZLjOD",
+  mode: "international"
+},
+      {
+  title: "Summertime Sadness",
+  artist: "Lana Del Rey",
+  embed: "https://open.spotify.com/embed/track/3BJe4B8zGnqEdQPMvfVjuS",
+  mode: "international"
+},
+        {
+  title: "Ocean",
+  artist: "Alok, Zeeba e IRO",
+  embed: "https://open.spotify.com/embed/track/4nraNqonMyfc0U3o8VeXVu",
+  mode: "brazil"
+  },
+      {
+  title: "back to friends",
+  artist: "sombr",
+  embed: "https://open.spotify.com/embed/track/0FTmksd2dxiE5e3rWyJXs6",
+  mode: "international"
+},
+      {
+  title: "Runaway",
+  artist: "AURORA",
+  embed: "https://open.spotify.com/embed/track/1WKOnYtM6HtzYvEJlSEIv5",
+  mode: "international"
+},
+      {
+  title: "Sign of the Times",
+  artist: "Harry Styles",
+  embed: "https://open.spotify.com/embed/track/5Ohxk2dO5COHF1krpoPigN",
+  mode: "international"
+},
+        {
+  title: "Lotus 72 D (Fast)",
+  artist: "Zé Roberto",
+  embed: "https://open.spotify.com/embed/track/5vMkCpA7Sz3so6GKJlJ6Wq",
+  mode: "brazil"
+  },
+        {
+  title: "Você Não Me Ensinou A Te Esquecer",
+  artist: "Fernando Mendes",
+  embed: "https://open.spotify.com/embed/track/0IafOczsKgXF8COLpQv98x",
+  mode: "brazil"
+  },
+        {
+  title: "Construção",
+  artist: "Chico Buarque",
+  embed: "https://open.spotify.com/embed/track/3FIuBxOxuQ6kYy8JO0gq2a",
+  mode: "brazil"
+  },
+        {
+  title: "Onde Anda Você",
+  artist: "Toquinho e Vinícius de Moraes",
+  embed: "https://open.spotify.com/embed/track/24bOiXGnWfwged0gg0LemU",
+  mode: "brazil"
+  },
+        {
+  title: "Preciso Me Encontrar",
+  artist: "Cartola",
+  embed: "https://open.spotify.com/embed/track/5AKrqJ7RiOCfCaaCuxxGk0",
+  mode: "brazil"
+  },
+        {
+  title: "Sujeito De Sorte",
+  artist: "Belchior",
+  embed: "https://open.spotify.com/embed/track/1UsAjRCSavihMYsspqJz4e",
+  mode: "brazil"
+  },
+        {
+  title: "Boa Sorte / Good Luck (part. Ben Harper)",
+  artist: "Vanessa Da Mata",
+  embed: "https://open.spotify.com/embed/track/6A3Q8BVAAI2PW1s6MX4ZGF",
+  mode: "brazil"
+  },
+      {
+  title: "Pump It Up",
+  artist: "Joe Budden",
+  embed: "https://open.spotify.com/embed/track/7tDbbfzB1d52lWP8rq8zRZ",
+  mode: "international"
+},
+        {
+  title: "Auto-reverse",
+  artist: "O Rappa",
+  embed: "https://open.spotify.com/embed/track/19QGIdhhRCB303eGVUQyZM",
+  mode: "brazil"
+  },
+      {
   title: "Hello",
   artist: "X1",
   embed: "https://open.spotify.com/embed/track/5tMTwvk6b9Q2XIuTZaUnjC",
