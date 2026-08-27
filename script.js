@@ -4,6 +4,30 @@ let currentMode = "general";
 
 const tracks = [
       {
+  title: "What I've Done",
+  artist: "Linkin Park",
+  embed: "https://open.spotify.com/embed/track/18lR4BzEs7e3qzc0KVkTpU",
+  mode: "international"
+},
+        {
+  title: "Quero Ser Feliz Também",
+  artist: "Natiruts",
+  embed: "https://open.spotify.com/embed/track/09h91oP3t1c5fSEI5P6maS",
+  mode: "brazil"
+  },
+        {
+  title: "Meu Novo Mundo",
+  artist: "Charlie Brown Jr.",
+  embed: "https://open.spotify.com/embed/track/0LDT8QEHbPA0aawzm9CWP7",
+  mode: "brazil"
+  },
+      {
+  title: "The Next Episode (part. Snoop Dogg)",
+  artist: "Dr. Dre",
+  embed: "https://open.spotify.com/embed/track/4LwU4Vp6od3Sb08CsP99GC",
+  mode: "international"
+},
+      {
   title: "Hot (Remix) (part. Gunna e Travis Scott)",
   artist: "Young Thug",
   embed: "https://open.spotify.com/embed/track/4ea9w8c4ROqiZpJVhfBA3m",
