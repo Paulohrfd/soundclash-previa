@@ -3,6 +3,367 @@ const TOURNAMENT_PROGRESS_KEY = "soundclash_tournament_progress_v1";
 let currentMode = "general";
 
 const tracks = [
+    {
+    title: "Como Nossos Pais",
+    artist: "Elis Regina",
+    embed: "https://open.spotify.com/embed/track/2ZC8sdv4Kvuql7Q9T8Agzv",
+    mode: "brazil"
+  },
+  {
+    title: "Paciência",
+    artist: "Lenine",
+    embed: "https://open.spotify.com/embed/track/4HHDRt7w95ewCrZtRS8djw",
+    mode: "brazil"
+  },
+  {
+    title: "Aquarela",
+    artist: "Toquinho",
+    embed: "https://open.spotify.com/embed/track/4LhxdvP3lfgH3ciOyO1BX1",
+    mode: "brazil"
+  },
+  {
+    title: "Samurai",
+    artist: "Djavan",
+    embed: "https://open.spotify.com/embed/track/1PnM7rDmWwz1Rh9hCf2K00",
+    mode: "brazil"
+  },
+  {
+    title: "Anunciação",
+    artist: "Alceu Valença",
+    embed: "https://open.spotify.com/embed/track/1JG3gtLBoFwqrNckepnSdE",
+    mode: "brazil"
+  },
+  {
+    title: "Trem-Bala",
+    artist: "Ana Vilela",
+    embed: "https://open.spotify.com/embed/track/4QEXcZ4T8t1MgwU4g8W0dM",
+    mode: "brazil"
+  },
+  {
+    title: "Tocando Em Frente",
+    artist: "Almir Sater",
+    embed: "https://open.spotify.com/embed/track/3ZRRIlSvOctKY5NqlRESgA",
+    mode: "brazil"
+  },
+    {
+    title: "Esquadros",
+    artist: "Adriana Calcanhotto",
+    embed: "https://open.spotify.com/embed/track/0Dqd8e4lCG1EYPmyzzR53I",
+    mode: "brazil"
+  },
+  {
+    title: "Carinhoso",
+    artist: "Pixinguinha",
+    embed: "https://open.spotify.com/embed/track/24TMaKkgOU8w3HSIhqN643",
+    mode: "brazil"
+  },
+  {
+    title: "Palco",
+    artist: "Gilberto Gil",
+    embed: "https://open.spotify.com/embed/track/2wL88cvKXUOfHuYVd62hji",
+    mode: "brazil"
+  },
+  {
+    title: "Codinome Beija-Flor",
+    artist: "Cazuza",
+    embed: "https://open.spotify.com/embed/track/5yFI0Vs3x4EbeIDerT0ck1",
+    mode: "brazil"
+  },
+    {
+    title: "SEQUÊNCIA CARAMELO",
+    artist: "PEDRO SAMPAIO, Mc Th & MC Nito",
+    embed: "https://open.spotify.com/embed/track/4GHq9Xla9KO6SWo7a8uvNw",
+    mode: "brazil"
+  },
+  {
+    title: "TÍMIDA, SANTA Y PELIGROSA",
+    artist: "PEDRO SAMPAIO, Cachirula & LOOJAN",
+    embed: "https://open.spotify.com/embed/track/6yhlBas06D4GJ7hLWod9gH",
+    mode: "brazil"
+  },
+    {
+    title: "CAVALINHO",
+    artist: "PEDRO SAMPAIO, Gasparzinho & MC Meno K",
+    embed: "https://open.spotify.com/embed/track/1ggNrK7MbSsXZ3s1GDUPX5",
+    mode: "brazil"
+  },
+    {
+    title: "Tipo Eletrônica",
+    artist: "MC Tuto & DJ BOY",
+    embed: "https://open.spotify.com/embed/track/00oC792BUI02wSUqLrSHnr",
+    mode: "brazil"
+  },
+      {
+    title: "Por Onde Eu For",
+    artist: "DJ Japa NK, Love Funk & MC LUUKY",
+    embed: "https://open.spotify.com/embed/track/3k6hHOPclz71RdjuCcWFUE",
+    mode: "brazil"
+  },
+  {
+    title: "Se Nois Tamo Presente",
+    artist: "DJ Japa NK & Boladin 211",
+    embed: "https://open.spotify.com/embed/track/3ZJOsbhFJsTBbyRvSdEcy5",
+    mode: "brazil"
+  },
+  {
+    title: "Comedinha Ficou Bravo",
+    artist: "DJ Japa NK, MC Negão Original & MC Meno K",
+    embed: "https://open.spotify.com/embed/track/06n87WQroP5WFD4aR45T8X",
+    mode: "brazil"
+  },
+  {
+    title: "Essa Novinha",
+    artist: "DENNIS, MC Kevin o Chris & MC Meno K",
+    embed: "https://open.spotify.com/embed/track/7BdaJUTetIpMWToscNwBKG",
+    mode: "brazil"
+  },
+    {
+    title: "Imagina esse Cenário",
+    artist: "Matuê & Veigh",
+    embed: "https://open.spotify.com/embed/track/2fjqfFUq64thFsqfKN01kS",
+    mode: "brazil"
+  },
+    [
+  {
+    title: "XTRANHO",
+    artist: "Matuê, Brandão85",
+    embed: "https://open.spotify.com/embed/track/7t62gr2XJ5ELK10MofNcI7",
+    mode: "brazil"
+  },
+  {
+    title: "Máquina do Tempo",
+    artist: "Matuê",
+    embed: "https://open.spotify.com/embed/track/5oI9blwsXC8AkTWw6wASY8",
+    mode: "brazil"
+  },
+  {
+    title: "Imagina esse Cenário",
+    artist: "Matuê, Veigh",
+    embed: "https://open.spotify.com/embed/track/2fjqfFUq64thFsqfKN01kS",
+    mode: "brazil"
+  },
+  {
+    title: "Conexões de Máfia",
+    artist: "Matuê, Rich The Kid",
+    embed: "https://open.spotify.com/embed/track/3ktTWpYdXrYApH54cBo4Ap",
+    mode: "brazil"
+  },
+  {
+    title: "Ballena",
+    artist: "Vulgo FK, MC PH, Veigh, Pedro Lotto, Fepache",
+    embed: "https://open.spotify.com/embed/track/1Vy9Wn5sbiduZKBqBlH3Mc",
+    mode: "brazil"
+  },
+  {
+    title: "Engana Dizendo Que Ama",
+    artist: "Veigh, Tz da Coronel, Toledo, Nagalli, Bvga Beatz, Supernova Ent",
+    embed: "https://open.spotify.com/embed/track/39xOREhViooEYFpmnKTdrl",
+    mode: "brazil"
+  },
+  {
+    title: "CONFISSÕES PT2",
+    artist: "Nagalli, KayBlack, Veigh, Supernova Ent",
+    embed: "https://open.spotify.com/embed/track/0Q1ySdDoHDiotYn4nbMXNm",
+    mode: "brazil"
+  },
+  {
+    title: "Mistérios",
+    artist: "KayBlack, Murillo e LT no Beat",
+    embed: "https://open.spotify.com/embed/track/32YL0JKrK3t0PhAbKi82Xp",
+    mode: "brazil"
+  },
+    {
+    title: "Minha Vida é um Filme",
+    artist: "Teto",
+    embed: "https://open.spotify.com/embed/track/0FBV7lozkqCSuV2q24n43x",
+    mode: "brazil"
+  },
+  {
+    title: "Coração de Gelo",
+    artist: "WIU",
+    embed: "https://open.spotify.com/embed/track/7nFvKgVumc9FcU97zGjjei",
+    mode: "brazil"
+  },
+  {
+    title: "Felina",
+    artist: "WIU, MC Ryan SP",
+    embed: "https://open.spotify.com/embed/track/2orGm2E68ODFYOURjaES62",
+    mode: "brazil"
+  },
+    {
+    title: "Sereia",
+    artist: "Orochi, MC Ryan SP, Oruam, Xamã, Neo Beats, Kizzy, Mainstreet",
+    embed: "https://open.spotify.com/embed/track/77UrDaIQq6JZIJWeLgJaRf",
+    mode: "brazil"
+  },
+  {
+    title: "Só Rock 3",
+    artist: "Major RD, Borges, MC Cabelinho, Young Ganni, Rock Danger, meLLo",
+    embed: "https://open.spotify.com/embed/track/6QSYz3Nlcxwv1x0RWIgMoj",
+    mode: "brazil"
+  },
+  {
+    title: "QUE LOUCURA - Remix",
+    artist: "DJ EXE, CACAU CHUU, Luísa Sonza, Ryan Castro",
+    embed: "https://open.spotify.com/embed/track/1t3FVvjWVqvOI59M7CzqOi",
+    mode: "brazil"
+  },
+  {
+    title: "Famoso Ímã | O poderoso chatão",
+    artist: "Mc Lele JP, Mc Poze do Rodo, MC Leozinho ZS, DJ GORDINHO DA VF",
+    embed: "https://open.spotify.com/embed/track/22bl3LPkCHQSBhCAdw8Jwk",
+    mode: "brazil"
+  },
+  {
+    title: "Carnívoro",
+    artist: "Mc Jacaré, Mc Lele JP, Mc Negão Original, DJ Japa NK",
+    embed: "https://open.spotify.com/embed/track/65aH3l8LEmRp3HuH5XpKoH",
+    mode: "brazil"
+  },
+  {
+    title: "Mágica Ka Raba",
+    artist: "DJ P4K, Mc Gimenes, Storys Funk, Gordinho Bolado, CACAU CHUU",
+    embed: "https://open.spotify.com/embed/track/7hmlKZdRDD4q9zwg41BHx9",
+    mode: "brazil"
+  },
+  {
+    title: "Tuts Tuts Quero Ver",
+    artist: "Edy Lemond, DJ Lucas Beat",
+    embed: "https://open.spotify.com/embed/track/5dPm39U8gifmxUPMOlzknS",
+    mode: "brazil"
+  },
+  {
+    title: "Ela Sabe Que Ela É Gata Mesmo",
+    artist: "Mc Vitera, DJ TAK VADIÃO, Dj Hn do Alvorada",
+    embed: "https://open.spotify.com/embed/track/2R6bVxroJhiCD4YvcWm72s",
+    mode: "brazil"
+  },
+  {
+    title: "Mandelão Envolvente",
+    artist: "DJ DR4X, Mc Choros",
+    embed: "https://open.spotify.com/embed/track/5aebTFP5tS5rF0f6VaoLUb",
+    mode: "brazil"
+  },
+  {
+    title: "Calma Vai Devagar - Arrochadeira",
+    artist: "Gilberto Vasconcelos, MC Marsha, Dj JR FELIX, DJ Yuri Chagas",
+    embed: "https://open.spotify.com/embed/track/0JZ1sb2OLOQenitqno4JvG",
+    mode: "brazil"
+  },
+  {
+    title: "Diário de um Cafajeste",
+    artist: "DG e Batidão Stronda, MC Ryan SP, Mc Lele JP",
+    embed: "https://open.spotify.com/embed/track/403RFVnams4I2nMhpaMDVO",
+    mode: "brazil"
+  },
+  {
+    title: "Reliquia do 2T",
+    artist: "DJ Gu, MC Vine7, MC Tuto, MC Joãozinho VT, Mc Dkziin, MC Fr da Norte",
+    embed: "https://open.spotify.com/embed/track/6n9JMoXkXu4lDOu1k6MRpy",
+    mode: "brazil"
+  },
+  {
+    title: "Se Saudade Sentir (Se Prepara 3)",
+    artist: "Mc Livinho, Mc Pedrinho, Perera DJ, DJ JB Mix",
+    embed: "https://open.spotify.com/embed/track/3lJMJl6alsAqw5OiXOOdVi",
+    mode: "brazil"
+  },
+    {
+    title: "Pau Pra Toda Obra",
+    artist: "Mc Jacaré, MC Ryan SP, Mc Lele JP, Mc IG",
+    embed: "https://open.spotify.com/embed/track/6Eal42iuZSUxeyNUfjifYU",
+    mode: "brazil"
+  },
+  {
+    title: "Rua do Ouro",
+    artist: "Dj Brenno Paixão, Mac Júlia, MC Rica, SAM SAM",
+    embed: "https://open.spotify.com/embed/track/0oKdsMglh1dTsX4nrkURMX",
+    mode: "brazil"
+  },
+  {
+    title: "Toca o Trompete",
+    artist: "Felipe Amorim",
+    embed: "https://open.spotify.com/embed/track/54u86CmMqGI1rRuULlTqaB",
+    mode: "brazil"
+  },
+  {
+    title: "Furduncinho do Rogerinho",
+    artist: "Rogerinho",
+    embed: "https://open.spotify.com/embed/track/6drlqBh6BeYZinmYQ9qR2n",
+    mode: "brazil"
+  },
+  {
+    title: "Let's Go 4",
+    artist: "Dj GBR, Mc IG, MC Ryan SP, MC PH, Mc Davi, Mc Luki, Mc Don Juan, Mc Kadu, TrapLaudo, MC GP, MC GH do 7",
+    embed: "https://open.spotify.com/embed/track/2InS5VWKJQbsFBKOsf1cJB",
+    mode: "brazil"
+  },
+  {
+    title: "Parabéns",
+    artist: "Pabllo Vittar, Psirico",
+    embed: "https://open.spotify.com/embed/track/3mikf8qZaNp6wrrWxHgawH",
+    mode: "brazil"
+  },
+  {
+    title: "Me Dá Sua Mão",
+    artist: "Mc Poze do Rodo, Mainstreet",
+    embed: "https://open.spotify.com/embed/track/3by89k8zGClgmQgz9SbtKp",
+    mode: "brazil"
+  },
+        {
+  title: "Saudade de Rosa",
+  artist: "Bartô Galeno",
+  embed: "https://open.spotify.com/embed/track/4bTkrwixNENl9Cxs6AqSDX",
+  mode: "brazil"
+  },
+        {
+  title: "Só Lembranças",
+  artist: "Bartô Galeno",
+  embed: "https://open.spotify.com/embed/track/2y3hnVX66hGmlEmNjuSeQX",
+  mode: "brazil"
+  },
+        {
+  title: "Vou Tirar Você Desse Lugar",
+  artist: "Odair José",
+  embed: "https://open.spotify.com/embed/track/6ycXkIHny7rNE3viCrdSRa",
+  mode: "brazil"
+  },
+        {
+  title: "Porque Brigamos (I Am... I Said)",
+  artist: "Diana",
+  embed: "https://open.spotify.com/embed/track/0glNhOhFDwAPKJ9tm6hfFV",
+  mode: "brazil"
+  },
+        {
+  title: "Não Creio Em Mais Nada",
+  artist: "Paulo Sergio",
+  embed: "https://open.spotify.com/embed/track/6rIBSgGmrtP0tI9v7DHrk3",
+  mode: "brazil"
+  },
+        {
+  title: "Meu Cofrinho De Amor",
+  artist: "Elino Julião",
+  embed: "https://open.spotify.com/embed/track/1mWtAomtxkLRU37ZjaVXzQ",
+  mode: "brazil"
+  },
+        {
+  title: "As Quatro Estações",
+  artist: "Reginaldo Rossi",
+  embed: "https://open.spotify.com/embed/track/4DiVs7MeNuSds1qiSEBVpg",
+  mode: "brazil"
+  },
+        {
+  title: "A Desconhecida",
+  artist: "Fernando Mendes",
+  embed: "https://open.spotify.com/embed/track/3uThrZxurheAgOqYl4v2we",
+  mode: "brazil"
+  },
+  {
+  title: "No Toca-Fita Do Meu Carro",
+  artist: "Bartô Galeno",
+  embed: "https://open.spotify.com/embed/track/3SXQpQGnAjn0pV16MVuzku",
+  mode: "brazil"
+  },
       {
   title: "What I've Done",
   artist: "Linkin Park",
