@@ -3,7 +3,7 @@ const TOURNAMENT_PROGRESS_KEY = "soundclash_tournament_progress_v1";
 let currentMode = "general";
 
 const tracks = [
-    {
+      {
     title: "Como Nossos Pais",
     artist: "Elis Regina",
     embed: "https://open.spotify.com/embed/track/2ZC8sdv4Kvuql7Q9T8Agzv",
@@ -15,7 +15,7 @@ const tracks = [
     embed: "https://open.spotify.com/embed/track/4HHDRt7w95ewCrZtRS8djw",
     mode: "brazil"
   },
-  {
+      {
     title: "Aquarela",
     artist: "Toquinho",
     embed: "https://open.spotify.com/embed/track/4LhxdvP3lfgH3ciOyO1BX1",
@@ -27,7 +27,7 @@ const tracks = [
     embed: "https://open.spotify.com/embed/track/1PnM7rDmWwz1Rh9hCf2K00",
     mode: "brazil"
   },
-  {
+      {
     title: "Anunciação",
     artist: "Alceu Valença",
     embed: "https://open.spotify.com/embed/track/1JG3gtLBoFwqrNckepnSdE",
@@ -39,7 +39,7 @@ const tracks = [
     embed: "https://open.spotify.com/embed/track/4QEXcZ4T8t1MgwU4g8W0dM",
     mode: "brazil"
   },
-  {
+      {
     title: "Tocando Em Frente",
     artist: "Almir Sater",
     embed: "https://open.spotify.com/embed/track/3ZRRIlSvOctKY5NqlRESgA",
@@ -51,7 +51,7 @@ const tracks = [
     embed: "https://open.spotify.com/embed/track/0Dqd8e4lCG1EYPmyzzR53I",
     mode: "brazil"
   },
-  {
+      {
     title: "Carinhoso",
     artist: "Pixinguinha",
     embed: "https://open.spotify.com/embed/track/24TMaKkgOU8w3HSIhqN643",
@@ -63,7 +63,7 @@ const tracks = [
     embed: "https://open.spotify.com/embed/track/2wL88cvKXUOfHuYVd62hji",
     mode: "brazil"
   },
-  {
+      {
     title: "Codinome Beija-Flor",
     artist: "Cazuza",
     embed: "https://open.spotify.com/embed/track/5yFI0Vs3x4EbeIDerT0ck1",
@@ -75,7 +75,7 @@ const tracks = [
     embed: "https://open.spotify.com/embed/track/4GHq9Xla9KO6SWo7a8uvNw",
     mode: "brazil"
   },
-  {
+      {
     title: "TÍMIDA, SANTA Y PELIGROSA",
     artist: "PEDRO SAMPAIO, Cachirula & LOOJAN",
     embed: "https://open.spotify.com/embed/track/6yhlBas06D4GJ7hLWod9gH",
@@ -87,7 +87,7 @@ const tracks = [
     embed: "https://open.spotify.com/embed/track/1ggNrK7MbSsXZ3s1GDUPX5",
     mode: "brazil"
   },
-    {
+      {
     title: "Tipo Eletrônica",
     artist: "MC Tuto & DJ BOY",
     embed: "https://open.spotify.com/embed/track/00oC792BUI02wSUqLrSHnr",
@@ -105,7 +105,7 @@ const tracks = [
     embed: "https://open.spotify.com/embed/track/3ZJOsbhFJsTBbyRvSdEcy5",
     mode: "brazil"
   },
-  {
+      {
     title: "Comedinha Ficou Bravo",
     artist: "DJ Japa NK, MC Negão Original & MC Meno K",
     embed: "https://open.spotify.com/embed/track/06n87WQroP5WFD4aR45T8X",
@@ -123,8 +123,7 @@ const tracks = [
     embed: "https://open.spotify.com/embed/track/2fjqfFUq64thFsqfKN01kS",
     mode: "brazil"
   },
-    [
-  {
+       {
     title: "XTRANHO",
     artist: "Matuê, Brandão85",
     embed: "https://open.spotify.com/embed/track/7t62gr2XJ5ELK10MofNcI7",
@@ -136,13 +135,7 @@ const tracks = [
     embed: "https://open.spotify.com/embed/track/5oI9blwsXC8AkTWw6wASY8",
     mode: "brazil"
   },
-  {
-    title: "Imagina esse Cenário",
-    artist: "Matuê, Veigh",
-    embed: "https://open.spotify.com/embed/track/2fjqfFUq64thFsqfKN01kS",
-    mode: "brazil"
-  },
-  {
+      {
     title: "Conexões de Máfia",
     artist: "Matuê, Rich The Kid",
     embed: "https://open.spotify.com/embed/track/3ktTWpYdXrYApH54cBo4Ap",
