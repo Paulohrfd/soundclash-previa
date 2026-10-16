@@ -4,6 +4,12 @@ let currentMode = "general";
 
 const tracks = [
       {
+    title: "NOITE PERFEITA",
+    artist: "Brandão85",
+    embed: "https://open.spotify.com/embed/track/555rmZC4fMJDkVavXReVf7",
+    mode: "brazil"
+  },
+      {
     title: "Como Nossos Pais",
     artist: "Elis Regina",
     embed: "https://open.spotify.com/embed/track/2ZC8sdv4Kvuql7Q9T8Agzv",
